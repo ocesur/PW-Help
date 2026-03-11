@@ -55,13 +55,13 @@ ekrandır.
 Bu sayede kullanıcılar, yalnızca yetkili oldukları işlemleri
 gerçekleştirebilir ve dokümanlar güvenli bir şekilde yönetilir.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-p1pcnf1m.png
+![image:gncel-dokmanlar-image-p1pcnf1m.png](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-p1pcnf1m.png)
 
 #### Klasör Detay Sayfası Tanımlamaları
 
 #### **Klasör Konumu**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703345286.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703345286.png)
 
 Bu alan, seçili dokümanın **yer aldığı klasörün konumunu** gösterir.
 
