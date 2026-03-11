@@ -73,7 +73,7 @@ Bu alan, seçili dokümanın **yer aldığı klasörün konumunu** gösterir.
 
 #### **Doküman Türü**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703408505.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703408505.png)
 
 Bu alan, dokümanın **türünü** gösterir (ör. Word, Excel, PDF vb.).
 
@@ -85,7 +85,7 @@ Bu alan, dokümanın **türünü** gösterir (ör. Word, Excel, PDF vb.).
 
 #### **Favori Dokümanlar**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703492932.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703492932.png)
 
 Bu alan, kullanıcıların **en çok ihtiyaç duydukları dokümanları
 favoriye** almasını sağlar.
@@ -101,7 +101,7 @@ sunar.
 
 #### **Doküman İşlem Durumu**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703589603.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703589603.png)
 
 Bu alan, dokümanın sistem içinde **işlem görüp görmediğini** gösterir:
 
@@ -115,7 +115,7 @@ ve uygun işlemleri gerçekleştirebilir.
 
 #### **Versiyon Karşılaştırma**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 Bu ekran, dokümanın **sisteme dahil edildiği tarihten itibaren yapılan
 revizyonlarının hızlıca karşılaştırılmasını** sağlar.
@@ -129,7 +129,7 @@ revizyonlarının hızlıca karşılaştırılmasını** sağlar.
 Bu özellik, dokümanların güncelliğini ve revizyon geçmişini yönetmeyi
 kolaylaştırır.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-bn9a49y9.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-bn9a49y9.png)
 
 Dokümanın revizyonlarını karşılaştırmak için:
 
@@ -151,19 +151,19 @@ Görünüm alanından;
 
 Yan yana seçilmesi durumunda:
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-utppqqsu.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-utppqqsu.png)
 
 Birleşik seçilmesi durumunda:
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-j3i2huhw.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-j3i2huhw.png)
 
 Orjinal doküman seçilmesi durumunda:
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-cu42og98.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-cu42og98.png)
 
 #### **Arşivleme**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 **Arşivle** butonu, yetkisi olan kullanıcıların ekranında aktif olarak
 görünür.
@@ -188,11 +188,11 @@ Arşivleme işlemi şu şekilde gerçekleştirilir:
 Bu özellik sayesinde dokümanlar güvenli bir şekilde arşivlenir ve
 sistemde izlenebilirliği korunur.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-xcvk6f3e.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-xcvk6f3e.png)
 
 #### Filigranlı / Filigransız Görüntüleme
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** görüntülenmesini sağlar.
@@ -209,7 +209,7 @@ veya Filigransız** görüntülenmesini sağlar.
 Bu özellik, dokümanların güvenliğini korurken yetkili kullanıcıların
 dokümanları doğru formatta görüntülemesini sağlar.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-jfkgaulz.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-jfkgaulz.png)
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde görüntülenir.
@@ -221,15 +221,15 @@ tanımlanmış filigran parametrelerine** uygun şekilde görüntülenir.
 
 **Filigranlı görüntüleme örneği;**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-etg4nod7.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-etg4nod7.png)
 
 **Filigransız görüntüleme örneği;**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-ayjf3tnr.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-ayjf3tnr.png)
 
 #### **Filigranlı / Filigransız İndirme**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** indirilebilmesini sağlar.
@@ -246,7 +246,7 @@ veya Filigransız** indirilebilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde paylaşılmasını ve yetkili
 kullanıcılar tarafından uygun formatta indirilmesini sağlar.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzvf4t0.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzvf4t0.png)
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde indirilecektir.
@@ -260,17 +260,17 @@ tanımlanmış filigran parametrelerine** uygun şekilde indirilecektir.
 
 Doküman pdf olarak indirilmektedir.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-wm7ul3vn.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-wm7ul3vn.png)
 
 **Filigransız indirme örneği;**
 
 Doküman orijinal formatında indirilmektedir.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-kiyrzedn.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-kiyrzedn.png)
 
  #### **Filigranlı / Filigransız Yazdırma**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** yazdırılabilmesini sağlar.
@@ -287,7 +287,7 @@ veya Filigransız** yazdırılabilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde yazdırılmasını ve yalnızca
 yetkili kullanıcıların çıktıya erişmesini sağlar.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-s0jpohx2.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-s0jpohx2.png)
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde yazdırılır.
 
@@ -298,15 +298,15 @@ tanımlanmış filigran parametrelerine** uygun şekilde yazdırılır.
 
 **Filigranlı yazdırma örneği;**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-mzwgjayv.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-mzwgjayv.png)
 
 **Filigransız yazdırma örneği;**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dyok2x82.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dyok2x82.png)
 
 #### **Filigranlı / Filigransız Paylaşma**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png)
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** paylaşılabilmesini sağlar.
@@ -323,7 +323,7 @@ veya Filigransız** paylaşılabilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde paylaşılmasını ve yalnızca
 yetkili kullanıcıların erişimini sağlar.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dbnhd78b.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dbnhd78b.png)
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde paylaşılacaktır.
@@ -336,10 +336,10 @@ tanımlanmış filigran parametrelerine** uygun şekilde paylaşılacaktır.
 
 **Filigranlı paylaşım örneği;**
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-udc8iev0.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-udc8iev0.png)
 
 **Filigransız paylaşım örneği;**
 
 Doküman orijinal formatında paylaşılmaktadır.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzeg5yj.png
+![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzeg5yj.png)
