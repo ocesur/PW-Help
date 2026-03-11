@@ -99,17 +99,17 @@
         "tab": "Nasıl Yaparım",
         "dropdowns": [
           {
+            "dropdown": "001-Genel Bilgilendirme",
+            "pages": [
+              "nasil-yaparim-genel-bilgilendirme"
+            ]
+          },
+          {
             "dropdown": "002-Elektronik Formlar",
             "pages": [
               "nasil-yaparim-form-bilesenleri",
               "nasil-yaparim-form-bilesenleri-vi",
               "nasil-yaparim-form-bilesenleri10"
-            ]
-          },
-          {
-            "dropdown": "001-Genel Bilgilendirme",
-            "pages": [
-              "nasil-yaparim-genel-bilgilendirme"
             ]
           }
         ]
