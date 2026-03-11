@@ -1,190 +1,158 @@
-## [Amaç]{type="spanMark"} {#amaç block-id="mjn4dvh6-0sa34c-001"}
+## [Amaç]
 
 [**Nasıl Yaparım** alanı, PaperWork üzerinde en sık ihtiyaç duyulan
 işlemlerin *adım adım*, *uygulamaya dönük* ve *örnek senaryolarla*
 anlatıldığı rehber içeriklerden oluşur. Bu bölüm, kullanıcıların ve
 sistem sorumlularının günlük operasyonlarda karşılaştıkları sorulara
-hızlı ve doğru yanıt bulmalarını amaçlar.]{type="spanMark"}
+hızlı ve doğru yanıt bulmalarını amaçlar.]
 
 [Bu sayfa, **Nasıl Yaparım** başlığı altındaki tüm içerikler için bir
-**başlangıç ve yönlendirme sayfası** niteliğindedir.]{type="spanMark"}
+**başlangıç ve yönlendirme sayfası** niteliğindedir.]
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-## [Bu Bölümü Kimler Kullanmalı?]{type="spanMark"} {#bu-bölümü-kimler-kullanmalı block-id="mjn4dvh8-e70rkb-004"}
+## [Bu Bölümü Kimler Kullanmalı?]
 
 [Nasıl Yaparım içerikleri aşağıdaki kullanıcı profillerine
-yöneliktir:]{type="spanMark"}
+yöneliktir:]
 
-- [**PaperWork Sistem Destek Birimi** personeli]{type="spanMark"}
+- [**PaperWork Sistem Destek Birimi** personeli]
 
 - [**PaperWork Sorumlusu** olarak belirlenmiş
-  kullanıcılar]{type="spanMark"}
+  kullanıcılar]
 
 - [Süreç, form, makro veya kural tasarımı yapan **uygulama
-  yöneticileri**]{type="spanMark"}
+  yöneticileri**]
 
 - [İleri seviye kullanım senaryolarını öğrenmek isteyen teknik
-  kullanıcılar]{type="spanMark"}
+  kullanıcılar]
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-## [İçerik Yapısı]{type="spanMark"} {#içerik-yapısı block-id="mjn4dvh9-5kyzpk-017"}
+## [İçerik Yapısı]
 
 [Nasıl Yaparım başlığı altında yer alan içerikler, konu bazlı olarak
 ayrılmıştır. Her başlık altında, ilgili alana özel "nasıl yapılır?"
-sorularına yanıt veren makaleler yer alır.]{type="spanMark"}
+sorularına yanıt veren makaleler yer alır.]
 
-### [📌 Makrolar]{type="spanMark"} {#makrolar block-id="mjn4dvh9-3lv3ib-019"}
+### [📌 Makrolar] 
 
 [Makro aktivitesi ile yapılabilecek işlemlerin anlatıldığı
-bölümdür.]{type="spanMark"}
+bölümdür.]
 
-[Bu alanda;]{type="spanMark"}
+[Bu alanda;]
 
-- [Makro adımlarında sık kullanılan senaryolar,]{type="spanMark"}
+- [Makro adımlarında sık kullanılan senaryolar,]
 
-- [Yetkilendirme, hata yönetimi ve veri kullanımı,]{type="spanMark"}
+- [Yetkilendirme, hata yönetimi ve veri kullanımı,]
 
-- [Belge, ek, rapor ve entegrasyon örnekleri]{type="spanMark"}
+- [Belge, ek, rapor ve entegrasyon örnekleri]
 
 [indeks türünde listelenir ve doğrudan ilgili makalelere erişim
 sağlanır. Sayfaya erişmek için
-]{type="spanMark"}[[tıklayınız]{type="spanMark"}](https://paperworkbpm.document360.io/docs/makrolar){target="_self"
-translate="no"}[.]{type="spanMark"}
+][[tıklayınız]](https://paperworkbpm.document360.io/docs/makrolar)
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-### [📂 Metodlar]{type="spanMark"} {#metodlar block-id="mjn4dvh9-pz7dh1-030"}
+### [📂 Metodlar] 
 
 [PaperWork metod altyapısının nasıl kullanılacağını anlatan içerikleri
-kapsar.]{type="spanMark"}
+kapsar.]
 
-[Bu bölümde;]{type="spanMark"}
+[Bu bölümde;]
 
-- [Metod tanımı ve kullanımı,]{type="spanMark"}
+- [Metod tanımı ve kullanımı,]
 
-- [Parametre yönetimi,]{type="spanMark"}
+- [Parametre yönetimi,]
 
-- [Akış ve formlarla birlikte kullanım senaryoları]{type="spanMark"}
+- [Akış ve formlarla birlikte kullanım senaryoları]
 
 [gibi konular yer alır. Sayfaya erişmek için
-]{type="spanMark"}[[tıklayınız]{type="spanMark"}](https://paperworkbpm.document360.io/docs/metodlar){target="_self"
-translate="no"}[.]{type="spanMark"}
+][[tıklayınız]](https://paperworkbpm.document360.io/docs/metodlar)
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-### [📂 Elektronik Formlar]{type="spanMark"} {#elektronik-formlar block-id="mjn4dvha-y1fohr-041"}
+### [📂 Elektronik Formlar] 
 
 [Elektronik form tasarımı ve form bileşenlerinin kullanımına yönelik
-rehberler bu başlık altında yer alır.]{type="spanMark"}
+rehberler bu başlık altında yer alır.]
 
-[Örnek içerikler:]{type="spanMark"}
+[Örnek içerikler:]
 
-- [Form alanı kullanımı]{type="spanMark"}
+- [Form alanı kullanımı]
 
-- [Validasyon ve görünürlük senaryoları]{type="spanMark"}
+- [Validasyon ve görünürlük senaryoları]
 
-- [Template ve script kullanımı]{type="spanMark"}
+- [Template ve script kullanımı]
 
 Sayfaya erişmek için
-[tıklayınız](https://paperworkbpm.document360.io/docs/elektronik-formlar){target="_self"
-translate="no"}.
+[tıklayınız](https://paperworkbpm.document360.io/docs/elektronik-formlar)
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-### [📂 Kural Motoru]{type="spanMark"} {#kural-motoru block-id="mjn4dvhb-2tng6t-051"}
+### [📂 Kural Motoru] 
 
 [Kural Motoru ile koşullu işlemlerin nasıl kurgulanacağını anlatan
-içerikleri kapsar.]{type="spanMark"}
+içerikleri kapsar.]
 
-[Bu alanda;]{type="spanMark"}
+[Bu alanda;]
 
-- [Kural tanımı]{type="spanMark"}
+- [Kural tanımı]
 
-- [Koşul--aksiyon yapıları]{type="spanMark"}
+- [Koşul--aksiyon yapıları]
 
-- [Akış ve formlarla birlikte kullanım örnekleri]{type="spanMark"}
+- [Akış ve formlarla birlikte kullanım örnekleri]
 
 [bulunur. Sayfaya erişmek için
-]{type="spanMark"}[[tıklayınız]{type="spanMark"}](https://paperworkbpm.document360.io/docs/c5x260400000){target="_self"
-translate="no"}[.]{type="spanMark"}
+][[tıklayınız]](https://paperworkbpm.document360.io/docs/c5x260400000)
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-### [📂 Genel]{type="spanMark"} {#genel block-id="mjn4dvhb-btp9jz-062"}
+### [📂 Genel] 
 
 [Birden fazla modülü ilgilendiren veya belirli bir başlık altında
 toplanamayan genel kullanım senaryoları bu bölümde yer alır. Sayfaya
 erişmek için
-]{type="spanMark"}[[tıklayınız]{type="spanMark"}](https://paperworkbpm.document360.io/docs/c5x260500000){target="_self"
-translate="no"}[.]{type="spanMark"}
+][[tıklayınız]](https://paperworkbpm.document360.io/docs/c5x260500000)
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-## [İçerikleri Nasıl Kullanmalıyım?]{type="spanMark"} {#içerikleri-nasıl-kullanmalıyım block-id="mjn4dvhb-ympyrv-064"}
+## [İçerikleri Nasıl Kullanmalıyım?] 
 
 - [İlgilendiğiniz başlığı sol menüden seçerek
-  başlayabilirsiniz.]{type="spanMark"}
+  başlayabilirsiniz.]
 
 - [Her makale, mümkün olduğunca **tek bir ihtiyaca** odaklanacak şekilde
-  hazırlanmıştır.]{type="spanMark"}
+  hazırlanmıştır.]
 
 - [Teknik anlatımlar, örnekler ve gerektiğinde ekran görüntüleriyle
-  desteklenmiştir.]{type="spanMark"}
+  desteklenmiştir.]
 
 - [Bazı içeriklerin sonunda, konunun daha iyi anlaşılması için **video
-  anlatımlar** yer alabilir.]{type="spanMark"}
+  anlatımlar** yer alabilir.]
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-## [Öneriler]{type="spanMark"} {#öneriler block-id="mjn4dvhc-hcu084-074"}
+## [Öneriler] 
 
 - [Canlı ortamda işlem yapmadan önce ilgili içeriğin **test ortamında**
-  denenmesi önerilir.]{type="spanMark"}
+  denenmesi önerilir.]
 
 - [Sürüm bazlı farklılıklar içeren konularda, makale içerisinde
   belirtilen **versiyon notlarına** dikkat
-  edilmelidir.]{type="spanMark"}
+  edilmelidir.]
 
 - [Benzer bir ihtiyaca ait birden fazla çözüm bulunuyorsa, alternatif
-  yaklaşımlar özellikle belirtilmiştir.]{type="spanMark"}
+  yaklaşımlar özellikle belirtilmiştir.]
 
-::: {contenteditable="false"}
+---
 
-------------------------------------------------------------------------
-:::
-
-## [Özet]{type="spanMark"} {#özet block-id="mjn4dvhd-hetjbi-082"}
+## [Özet] 
 
 [**Nasıl Yaparım** bölümü, PaperWork'ün sunduğu yetenekleri daha etkin
 ve doğru şekilde kullanabilmeniz için hazırlanmış bir uygulama
-rehberidir.]{type="spanMark"}
+rehberidir.]
 
 [Bu sayfayı, ilgili başlıklara geçmeden önce kısa bir rehber olarak
 kullanabilir; ihtiyaç duyduğunuz konuya hızlıca
-ulaşabilirsiniz.]{type="spanMark"}
+ulaşabilirsiniz.]
