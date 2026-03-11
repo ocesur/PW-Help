@@ -1,5 +1,11 @@
 {
   "name": "PaperWork Yardım Portalı",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0055FF",
+    "light": "#3388FF",
+    "dark": "#0033AA"
+  },
    "navigation": [
     {
       "group": "Doküman Yönetimi",
