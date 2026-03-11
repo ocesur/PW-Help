@@ -19,9 +19,9 @@ yönetilmesi sağlanır.
 
 #### **Ana Menü**
 
-[metin, ekran görüntüsü, menü, yazı tipi içeren bir resim Yapay zeka
+metin, ekran görüntüsü, menü, yazı tipi içeren bir resim Yapay zeka
 tarafından oluşturulmuş içerik yanlış
-olabilir.]
+olabilir.
 
 #### **Güncel Dokümanlar**
 **Güncel Dokümanlar**, Kalite Yönetim Sistemi içindeki dokümanların ve
@@ -82,8 +82,8 @@ görüntülendiği bölümdür.
 
 #### **Favori Dokümanlar**
 
-[ Bu ekran, kullanıcıların **favoriye aldığı dokümanları**
-görüntüleyebildiği alandır. ]
+Bu ekran, kullanıcıların **favoriye aldığı dokümanları**
+görüntüleyebildiği alandır.
 
 #### **API Komutları**
 
@@ -93,8 +93,9 @@ kullanılacak sorguların hazırlandığı alandır. Bu ekrana yalnızca
 
 #### **Parametreler**
 
-[**Parametre ekranı,** Doküman Yönetimi modülü kapsamında ihtiyaç
+**Parametre ekranı,** Doküman Yönetimi modülü kapsamında ihtiyaç
 duyulan tanımlamaların yapıldığı ekrandır. Erişim, kullanıcı yetkilerine
-bağlı olarak sağlanmaktadır.]
+bağlı olarak sağlanmaktadır.
+
 
 
