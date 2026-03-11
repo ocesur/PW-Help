@@ -2,7 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "name": "PaperWork Yardım Portalı",
   "colors": {
-    "primary": "#0D9373"
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#06634C"
   },
   "navigation": [
     {
