@@ -1,97 +1,68 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "PaperWork Yardım Portalı",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#06634C"
+    "primary": "#0D9373"
   },
-  "navigation": [
-    {
-      "tab": "Kullanım Kılavuzu",
-      "groups": [
-        {
-          "group": "Başlarken",
-          "pages": [
-            "nasil-yaparim-genel-bilgilendirme",
-            "paperwork-urun-kalite-yaklasimi",
-            "paperwork-3ncu-parti-bilesenleri"
-          ]
-        },
-        {
-          "group": "Doküman Yönetimi",
-          "pages": [
-            "dokuman-yonetimi",
-            "dokuman-yonetimi-is-akisi",
-            "gncel-dokmanlar",
-            "dokuman-arsivi-1",
-            "dokuman-kunyesi",
-            "dokuman-islemleri",
-            "dokman-olutur",
-            "dokman-revize-talebi-oluturma",
-            "dokman-askya-alma-iptal-talebi-oluturma",
-            "favori-dokumanlar",
-            "dokuman-numaralandirma",
-            "dokuman-onayci-bilgisi-tanimlama",
-            "fligran-tanimlama"
-          ]
-        },
-        {
-          "group": "Aksiyon Yönetimi",
-          "pages": [
-            "aksiyon-yonetimi-is-akisi",
-            "aksiyon-olusturulmasi",
-            "bekleyen-aksiyonlarim",
-            "tum-aksiyonlarim",
-            "periyodik-aksiyonlarim",
-            "taslak-aksiyonlar"
-          ]
-        }
-      ]
-    },
-    {
-      "tab": "Teknik Referans",
-      "groups": [
-        {
-          "group": "Form Bileşenleri (KS Serisi)",
-          "pages": [
-            "nasil-yaparim-form-bilesenleri",
-            "nasil-yaparim-form-bilesenleri-vi",
-            "nasil-yaparim-form-bilesenleri10",
-            "qr-kod-barkod-okuyucu-ks-01",
-            "ks-02-fotograf-video-ve-ses-kaydi",
-            "ks-03-iban-ve-tckn-dogrulamasi",
-            "ks-04-hesap-tablosu-nesnesi",
-            "ks-05-lokasyon-harita-nesnesi",
-            "ks-06-ai-belge-ozetleme",
-            "ks-07-ai-ton",
-            "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
-            "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
-            "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
-            "ks-11-iliskili-belge-mimarisi"
-          ]
-        },
-        {
-          "group": "Sistem ve Altyapı",
-          "pages": [
-            "kural-motoru-rule-engine-uygulama-rehberi",
-            "ssl-sertifikasi-guncelleme",
-            "sistem-parametre-tanimlama",
-            "parametreler",
-            "sablon-tanimlama"
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "Eğitim Videoları",
-      "icon": "video",
-      "href": "https://paperwork.mintlify.app/baykus-akademi-egitim-videolari"
-    },
-    {
-      "anchor": "API Komutları",
-      "icon": "code",
-      "href": "https://paperwork.mintlify.app/api-komutlari"
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Başlarken",
+        "pages": [
+          "nasil-yaparim-genel-bilgilendirme",
+          "paperwork-urun-kalite-yaklasimi",
+          "paperwork-3ncu-parti-bilesenleri"
+        ]
+      },
+      {
+        "group": "Doküman Yönetimi",
+        "pages": [
+          "dokuman-yonetimi",
+          "dokuman-yonetimi-is-akisi",
+          "gncel-dokmanlar",
+          "dokuman-arsivi-1",
+          "dokuman-kunyesi",
+          "dokuman-islemleri",
+          "dokman-olutur",
+          "dokman-revize-talebi-oluturma",
+          "dokman-askya-alma-iptal-talebi-oluturma",
+          "favori-dokumanlar",
+          "dokuman-numaralandirma",
+          "dokuman-onayci-bilgisi-tanimlama",
+          "fligran-tanimlama"
+        ]
+      },
+      {
+        "group": "Aksiyon Yönetimi",
+        "pages": [
+          "aksiyon-yonetimi-is-akisi",
+          "aksiyon-olusturulmasi",
+          "bekleyen-aksiyonlarim",
+          "tum-aksiyonlarim",
+          "periyodik-aksiyonlarim",
+          "taslak-aksiyonlar"
+        ]
+      },
+      {
+        "group": "Form Bileşenleri (KS Serisi)",
+        "pages": [
+          "nasil-yaparim-form-bilesenleri",
+          "nasil-yaparim-form-bilesenleri-vi",
+          "nasil-yaparim-form-bilesenleri10",
+          "qr-kod-barkod-okuyucu-ks-01",
+          "ks-02-fotograf-video-ve-ses-kaydi",
+          "ks-03-iban-ve-tckn-dogrulamasi",
+          "ks-04-hesap-tablosu-nesnesi",
+          "ks-05-lokasyon-harita-nesnesi",
+          "ks-06-ai-belge-ozetleme",
+          "ks-07-ai-ton",
+          "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
+          "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
+          "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
+          "ks-11-iliskili-belge-mimarisi"
+        ]
+      }
+    ]
+  }
 }
