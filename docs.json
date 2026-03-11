@@ -7,6 +7,6 @@
   },
   "navigation": {
     "groups": "Başlarken",
-    "pages": "Başlarken"
+    "pages": ["Başlarken"]
   }
 }
