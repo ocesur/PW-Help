@@ -6,7 +6,9 @@
     "primary": "#0D9373"
   },
   "navigation": {
-    "groups": [Başlarken],
-    "groups": [Doküman Yönetimi]
+    "groups": ["Başlarken"]
+  },
+  "navigation": {
+    "groups": ["Doküman Yönetimi"]
   }
 }
