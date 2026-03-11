@@ -7,6 +7,12 @@
     "dark": "#0033AA"
   },
    "navigation": [
+     {
+      "group": "Başlarken",
+      "pages": [
+        "nasıl-yaparım-genel-bilgilendirme"
+      ]
+    },
     {
       "group": "Doküman Yönetimi",
       "pages": [
