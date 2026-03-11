@@ -4,12 +4,6 @@
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0055FF",
-    "light": "#3388FF",
-    "dark": "#0033AA"
-  },
   "navigation": [
     {
       "group": "Başlarken",
