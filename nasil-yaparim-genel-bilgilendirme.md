@@ -1,3 +1,7 @@
+---
+title: "Nasıl Yaparım Genel Bilgilendirme"
+---
+
 ## Amaç
 
 **Nasıl Yaparım** alanı, PaperWork üzerinde en sık ihtiyaç duyulan işlemlerin _adım adım_, _uygulamaya dönük_ ve _örnek senaryolarla_ anlatıldığı rehber içeriklerden oluşur. Bu bölüm, kullanıcıların ve sistem sorumlularının günlük operasyonlarda karşılaştıkları sorulara hızlı ve doğru yanıt bulmalarını amaçlar.
@@ -12,8 +16,7 @@ Bu sayfa, **Nasıl Yaparım** başlığı altındaki tüm içerikler için bir *
 
 - **PaperWork Sistem Destek Birimi** personeli
 - **PaperWork Sorumlusu** olarak belirlenmiş kullanıcılar
-- Süreç, form, makro veya kural tasarımı yapan **uygulama\
-  yöneticileri**
+- Süreç, form, makro veya kural tasarımı yapan **uygulamayöneticileri**
 - İleri seviye kullanım senaryolarını öğrenmek isteyen teknik kullanıcılar
 
 ---
@@ -89,8 +92,7 @@ Birden fazla modülü ilgilendiren veya belirli bir başlık altında toplanamay
 - İlgilendiğiniz başlığı sol menüden seçerek başlayabilirsiniz.
 - Her makale, mümkün olduğunca **tek bir ihtiyaca** odaklanacak şekilde hazırlanmıştır.
 - Teknik anlatımlar, örnekler ve gerektiğinde ekran görüntüleriyle desteklenmiştir.
-- Bazı içeriklerin sonunda, konunun daha iyi anlaşılması için **video\
-  anlatımlar** yer alabilir.
+- Bazı içeriklerin sonunda, konunun daha iyi anlaşılması için **videoanlatımlar** yer alabilir.
 
 ---
 
