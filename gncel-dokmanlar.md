@@ -1,4 +1,4 @@
-#### []{#_Toc223540428 display="false"}**Güncel Dokümanlar** {#güncel-dokümanlar block-id="mmd9mugf-3t5hi4-915"}
+#### **Güncel Dokümanlar**
 
 **Güncel Dokümanlar**, Kalite Yönetim Sistemi içindeki dokümanların ve
 klasör yapısının bulunduğu alandır.
@@ -12,16 +12,9 @@ klasör yapısının bulunduğu alandır.
 Bu sayede kullanıcılar, gerekli dokümanlara hızlı ve düzenli şekilde
 erişebilir.
 
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703114398.png){.adv-wysiwyg-img
-block-id="mmd9mugf-t31gux-922" mediatype="img" width="auto"
-height="auto" dataalign="left" datadisplay="flex"
-data-type="media-content" fixaspectratio="false" autoaspectratio="false"
-shadow="yes" border="yes" round="no" link="" newtab=""
-style="width:auto;height:auto;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703114398.png
 
-#### Klasör ve Doküman Yetkilendirmeleri {#klasör-ve-doküman-yetkilendirmeleri block-id="mmd9mugf-9nzs3i-923"}
+#### Klasör ve Doküman Yetkilendirmeleri
 
 - **Klasör Yapısı:** Klasörlerin nasıl oluşturulacağına dair detaylı
   bilgiye **Parametreler → Klasör Tanımlama** ekranından
@@ -46,7 +39,7 @@ style="width:auto;height:auto;"}
 Bu yapı, kullanıcıların yalnızca yetkili oldukları dokümanlara
 erişmesini sağlayarak sistem güvenliğini ve kontrolünü artırır.
 
-#### Klasör Detay Sayfası {#klasör-detay-sayfası block-id="mmd9mugg-lrgsou-934"}
+#### Klasör Detay Sayfası
 
 Klasör Detay Sayfası, seçili klasör içindeki dokümanların listelendiği
 ekrandır.
@@ -62,26 +55,13 @@ ekrandır.
 Bu sayede kullanıcılar, yalnızca yetkili oldukları işlemleri
 gerçekleştirebilir ve dokümanlar güvenli bir şekilde yönetilir.
 
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-p1pcnf1m.png){.adv-wysiwyg-img
-block-id="mmd9mugg-kd22e6-942" mediatype="img" width="993" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:993px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-p1pcnf1m.png
 
-#### Klasör Detay Sayfası Tanımlamaları {#klasör-detay-sayfası-tanımlamaları block-id="mmda3gua-rs9rdg-115"}
+#### Klasör Detay Sayfası Tanımlamaları
 
-- #### **Klasör Konumu** {#klasör-konumu block-id="mmda3u30-3h0ww6-116"}
+#### **Klasör Konumu**
 
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703345286.png){.adv-wysiwyg-img
-block-id="mmd9mugg-b2j7ir-944" mediatype="img" width="auto"
-height="auto" dataalign="center" datadisplay="inline"
-data-type="media-content" fixaspectratio="false" autoaspectratio="false"
-shadow="yes" border="yes" round="no" link="" newtab=""
-style="width:auto;height:auto;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703345286.png
 
 Bu alan, seçili dokümanın **yer aldığı klasörün konumunu** gösterir.
 
@@ -91,18 +71,9 @@ Bu alan, seçili dokümanın **yer aldığı klasörün konumunu** gösterir.
 - Bu sayede dokümanların klasör hiyerarşisi takip edilebilir ve doğru
   dokümana hızlı erişim sağlanır.
 
-<!-- -->
+#### **Doküman Türü**
 
-- #### **Doküman Türü** {#doküman-türü block-id="mmda4afo-39lu7s-119"}
-
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703408505.png){.adv-wysiwyg-img
-block-id="mmd9mugg-m3vj26-949" mediatype="img" width="auto"
-height="auto" dataalign="left" datadisplay="inline"
-data-type="media-content" fixaspectratio="false" autoaspectratio="false"
-shadow="yes" border="yes" round="no" link="" newtab=""
-style="width:auto;height:auto;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703408505.png
 
 Bu alan, dokümanın **türünü** gösterir (ör. Word, Excel, PDF vb.).
 
@@ -112,18 +83,9 @@ Bu alan, dokümanın **türünü** gösterir (ör. Word, Excel, PDF vb.).
 - Bu bilgi, dokümanın uygun programlarla açılmasını ve doğru kullanımını
   kolaylaştırır.
 
-<!-- -->
+#### **Favori Dokümanlar**
 
-- #### **Favori Dokümanlar** {#favori-dokümanlar block-id="mmda4m3t-z0dscs-122"}
-
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703492932.png){.adv-wysiwyg-img
-block-id="mmd9mugg-mznbf7-954" mediatype="img" width="auto"
-height="auto" dataalign="center" datadisplay="inline"
-data-type="media-content" fixaspectratio="false" autoaspectratio="false"
-shadow="yes" border="yes" round="no" link="" newtab=""
-style="width:auto;height:auto;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703492932.png
 
 Bu alan, kullanıcıların **en çok ihtiyaç duydukları dokümanları
 favoriye** almasını sağlar.
@@ -137,16 +99,9 @@ favoriye** almasını sağlar.
 Bu özellik, sık kullanılan dokümanlara hızlı ve kolay erişim imkânı
 sunar.
 
-- #### **Doküman İşlem Durumu** {#doküman-işlem-durumu block-id="mmd9mugg-m5d6kx-969"}
+#### **Doküman İşlem Durumu**
 
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703589603.png){.adv-wysiwyg-img
-block-id="mmd9mugg-3gw255-970" mediatype="img" width="auto"
-height="auto" dataalign="center" datadisplay="inline"
-data-type="media-content" fixaspectratio="false" autoaspectratio="false"
-shadow="yes" border="yes" round="no" link="" newtab=""
-style="width:auto;height:auto;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703589603.png
 
 Bu alan, dokümanın sistem içinde **işlem görüp görmediğini** gösterir:
 
@@ -158,13 +113,9 @@ Bu alan, dokümanın sistem içinde **işlem görüp görmediğini** gösterir:
 Bu sayede kullanıcılar, dokümanların mevcut durumunu hızlıca görebilir
 ve uygun işlemleri gerçekleştirebilir.
 
-- #### **Versiyon Karşılaştırma** {#versiyon-karşılaştırma block-id="mmda5ohh-0733fz-129"}
+#### **Versiyon Karşılaştırma**
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-block-id="mmdabyrn-r5etn5-137" mediatype="img" width="193" height="190"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="true" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:193px;height:190px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 Bu ekran, dokümanın **sisteme dahil edildiği tarihten itibaren yapılan
 revizyonlarının hızlıca karşılaştırılmasını** sağlar.
@@ -178,11 +129,7 @@ revizyonlarının hızlıca karşılaştırılmasını** sağlar.
 Bu özellik, dokümanların güncelliğini ve revizyon geçmişini yönetmeyi
 kolaylaştırır.
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-bn9a49y9.png){.adv-wysiwyg-img
-block-id="mmd9mugg-7dlsxc-982" mediatype="img" width="950" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:950px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-bn9a49y9.png
 
 Dokümanın revizyonlarını karşılaştırmak için:
 
@@ -193,50 +140,34 @@ Dokümanın revizyonlarını karşılaştırmak için:
 
 3.  Açılan sonuç ekranında değişiklikler şu şekilde görüntülenir:
 
-    - Yapılan **ilaveler (+)** → **Yeşil renk** ile gösterilir.
+    - Yapılan **ilaveler ** → **Yeşil renk** ile gösterilir.
 
-    - Yapılan **çıkartmalar (--)** → **Kırmızı renk** ile gösterilir.
+    - Yapılan **çıkartmalar ** → **Kırmızı renk** ile gösterilir.
 
 Bu özellik sayesinde doküman üzerinde yapılan değişiklikler hızlı ve
 görsel olarak takip edilebilir.
 
 Görünüm alanından;
 
-- Yan yana seçilmesi durumunda:
+Yan yana seçilmesi durumunda:
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-utppqqsu.png){.adv-wysiwyg-img
-block-id="mmd9mugh-iyxqgf-995" mediatype="img" width="762" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:762px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-utppqqsu.png
 
-- Birleşik seçilmesi durumunda:
+Birleşik seçilmesi durumunda:
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-j3i2huhw.png){.adv-wysiwyg-img
-block-id="mmd9mugh-naj23s-998" mediatype="img" width="762" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:762px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-j3i2huhw.png
 
-- Orjinal doküman seçilmesi durumunda:
+Orjinal doküman seçilmesi durumunda:
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-cu42og98.png){.adv-wysiwyg-img
-block-id="mmd9mugh-0kshn8-001" mediatype="img" width="776" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:776px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-cu42og98.png
 
-- #### **Arşivleme** {#arşivleme block-id="mmda707t-qytvtn-133"}
+#### **Arşivleme**
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-block-id="mmdaelrh-iyyaso-169" mediatype="img" width="193" height="190"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="true" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:193px;height:190px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 **Arşivle** butonu, yetkisi olan kullanıcıların ekranında aktif olarak
-görünür.\
-(Yetki tanımlamaları için **Yetki Setleri** sayfasına bakabilirsiniz.)
+görünür.
+Yetki tanımlamaları için **Yetki Setleri** sayfasına bakabilirsiniz.
 
 Arşivleme işlemi şu şekilde gerçekleştirilir:
 
@@ -257,21 +188,11 @@ Arşivleme işlemi şu şekilde gerçekleştirilir:
 Bu özellik sayesinde dokümanlar güvenli bir şekilde arşivlenir ve
 sistemde izlenebilirliği korunur.
 
-![metin, elektronik donanım, ekran görüntüsü, yazılım içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-xcvk6f3e.png){.adv-wysiwyg-img
-block-id="mmd9mugi-avvg74-015" mediatype="img" width="351" height="399"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:351px;height:399px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-xcvk6f3e.png
 
-- #### **Filigranlı / Filigransız Görüntüleme** {#filigranlı-filigransız-görüntüleme block-id="mmd9mugi-pzx5ft-016"}
+#### Filigranlı / Filigransız Görüntüleme
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-block-id="mmdacjfj-db9tg3-138" mediatype="img" width="208" height="204"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="true" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:208px;height:204px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** görüntülenmesini sağlar.
@@ -288,13 +209,7 @@ veya Filigransız** görüntülenmesini sağlar.
 Bu özellik, dokümanların güvenliğini korurken yetkili kullanıcıların
 dokümanları doğru formatta görüntülemesini sağlar.
 
-![metin, ekran görüntüsü, yazılım, işletim sistemi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-jfkgaulz.png){.adv-wysiwyg-img
-block-id="mmd9mugi-a8p5w2-025" mediatype="img" width="364" height="auto"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:364px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-jfkgaulz.png
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde görüntülenir.
@@ -306,31 +221,15 @@ tanımlanmış filigran parametrelerine** uygun şekilde görüntülenir.
 
 **Filigranlı görüntüleme örneği;**
 
-![metin, ekran görüntüsü, sayı, numara, yazılım içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-etg4nod7.png){.adv-wysiwyg-img
-block-id="mmd9mugi-6nkwg9-032" mediatype="img" width="437"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:437px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-etg4nod7.png
 
 **Filigransız görüntüleme örneği;**
 
-![metin, ekran görüntüsü, sayı, numara, yazılım içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-ayjf3tnr.png){.adv-wysiwyg-img
-block-id="mmd9mugi-6trzcc-035" mediatype="img" width="430"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:430px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-ayjf3tnr.png
 
-- #### **Filigranlı / Filigransız İndirme** {#filigranlı-filigransız-indirme block-id="mmdak4o4-c55d21-198"}
+#### **Filigranlı / Filigransız İndirme**
 
-![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-block-id="mmdam03y-d360p1-199" mediatype="img" width="208" height="204"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="true" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:208px;height:204px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** indirilebilmesini sağlar.
@@ -347,13 +246,7 @@ veya Filigransız** indirilebilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde paylaşılmasını ve yetkili
 kullanıcılar tarafından uygun formatta indirilmesini sağlar.
 
-![metin, ekran görüntüsü, yazılım, işletim sistemi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzvf4t0.png){.adv-wysiwyg-img
-block-id="mmd9mugj-l0yllh-045" mediatype="img" width="347"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:347px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzvf4t0.png
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde indirilecektir.
@@ -367,34 +260,17 @@ tanımlanmış filigran parametrelerine** uygun şekilde indirilecektir.
 
 Doküman pdf olarak indirilmektedir.
 
-![metin, yazı tipi, mektup, harf, ekran görüntüsü içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-wm7ul3vn.png){.adv-wysiwyg-img
-block-id="mmd9mugj-m3hc5y-053" mediatype="img" width="438" height="466"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:438px;height:466px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-wm7ul3vn.png
 
 **Filigransız indirme örneği;**
 
 Doküman orijinal formatında indirilmektedir.
 
-![metin, ekran görüntüsü, yazılım, bilgisayar simgesi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-kiyrzedn.png){.adv-wysiwyg-img
-block-id="mmd9mugj-9bit9f-057" mediatype="img" width="438"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:438px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-kiyrzedn.png
 
-- #### **Filigranlı / Filigransız Yazdırma** {#filigranlı-filigransız-yazdırma block-id="mmd9mugj-9mx5js-058"}
+ #### **Filigranlı / Filigransız Yazdırma**
 
-  ![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-  block-id="mmdanwuo-2240jq-202" mediatype="img" width="208"
-  height="204" dataalign="left" datadisplay="flex"
-  data-type="media-content" fixaspectratio="false"
-  autoaspectratio="true" shadow="yes" border="yes" round="no" link=""
-  newtab="" style="width:208px;height:204px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** yazdırılabilmesini sağlar.
@@ -411,14 +287,7 @@ veya Filigransız** yazdırılabilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde yazdırılmasını ve yalnızca
 yetkili kullanıcıların çıktıya erişmesini sağlar.
 
-![metin, ekran görüntüsü, yazılım, multimedya içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-s0jpohx2.png){.adv-wysiwyg-img
-block-id="mmd9mugj-d8bnhn-067" mediatype="img" width="377"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="no" border="no"
-round="no" link="" newtab="" style="width:377px;"}
-
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-s0jpohx2.png
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde yazdırılır.
 
@@ -429,32 +298,15 @@ tanımlanmış filigran parametrelerine** uygun şekilde yazdırılır.
 
 **Filigranlı yazdırma örneği;**
 
-![metin, ekran görüntüsü, yazı tipi, sayı, numara içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-mzwgjayv.png){.adv-wysiwyg-img
-block-id="mmd9mugj-r3wfpg-074" mediatype="img" width="529"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:529px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-mzwgjayv.png
 
 **Filigransız yazdırma örneği;**
 
-![metin, ekran görüntüsü, sayı, numara, yazı tipi içeren bir resim Yapay
-zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dyok2x82.png){.adv-wysiwyg-img
-block-id="mmd9mugk-kzyxse-077" mediatype="img" width="538"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:538px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dyok2x82.png
 
-- #### **Filigranlı / Filigransız Paylaşma** {#filigranlı-filigransız-paylaşma block-id="mmd9mugk-5aa0sb-078"}
+#### **Filigranlı / Filigransız Paylaşma**
 
-  ![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png){.adv-wysiwyg-img
-  block-id="mmdapfno-hsr2xe-209" mediatype="img" width="208"
-  height="204" dataalign="left" datadisplay="flex"
-  data-type="media-content" fixaspectratio="false"
-  autoaspectratio="true" shadow="yes" border="yes" round="no" link=""
-  newtab="" style="width:208px;height:204px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772704158330.png
 
 Bu alan, seçili dokümanın kullanıcı yetkisine bağlı olarak **Filigranlı
 veya Filigransız** paylaşılabilmesini sağlar.
@@ -471,13 +323,7 @@ veya Filigransız** paylaşılabilmesini sağlar.
 Bu özellik, dokümanların güvenli bir şekilde paylaşılmasını ve yalnızca
 yetkili kullanıcıların erişimini sağlar.
 
-![metin, ekran görüntüsü, yazılım, işletim sistemi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dbnhd78b.png){.adv-wysiwyg-img
-block-id="mmd9mugk-ot7upb-087" mediatype="img" width="358"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:358px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-dbnhd78b.png
 
 Kullanıcının seçimine bağlı olarak doküman, **sistem kurulumunda
 tanımlanmış filigran parametrelerine** uygun şekilde paylaşılacaktır.
@@ -490,22 +336,10 @@ tanımlanmış filigran parametrelerine** uygun şekilde paylaşılacaktır.
 
 **Filigranlı paylaşım örneği;**
 
-![metin, ekran görüntüsü, yazılım, işletim sistemi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-udc8iev0.png){.adv-wysiwyg-img
-block-id="mmd9mugk-xyq0mv-094" mediatype="img" width="493"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:493px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-udc8iev0.png
 
 **Filigransız paylaşım örneği;**
 
 Doküman orijinal formatında paylaşılmaktadır.
 
-![metin, ekran görüntüsü, yazılım, işletim sistemi içeren bir resim
-Yapay zeka tarafından oluşturulmuş içerik yanlış
-olabilir.](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzeg5yj.png){.adv-wysiwyg-img
-block-id="mmd9mugk-4m6yhv-098" mediatype="img" width="486"
-dataalign="left" datadisplay="flex" data-type="media-content"
-fixaspectratio="false" autoaspectratio="false" shadow="yes" border="yes"
-round="no" link="" newtab="" style="width:486px;"}
+https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/gncel-dokmanlar-image-6zzeg5yj.png
