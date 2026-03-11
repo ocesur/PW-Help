@@ -6,18 +6,140 @@
     "light": "#3388FF",
     "dark": "#0033AA"
   },
-  "navigation": [
-    {
-      "group": "Baslarken",
-      "pages": [
-        "dokuman-yonetimi"
-      ]
-    },
-    {
-      "group": "Dokuman Yonetimi",
-      "pages": [
-        "dokuman-yonetimi"
-      ]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Başlarken",
+        "pages": [
+          "nasil-yaparim-genel-bilgilendirme",
+          "paperwork-urun-kalite-yaklasimi",
+          "paperwork-3ncu-parti-bilesenleri",
+          "baykus-akademi-egitim-videolari"
+        ]
+      },
+      {
+        "group": "Doküman Yönetimi",
+        "pages": [
+          "dokuman-yonetimi",
+          "dokuman-yonetimi-is-akisi",
+          "gncel-dokmanlar",
+          "dokuman-arsivi-1",
+          "dokuman-kunyesi",
+          "dokuman-islemleri",
+          "dokman-olutur",
+          "dokman-revize-talebi-oluturma",
+          "dokman-askya-alma-iptal-talebi-oluturma",
+          "favori-dokumanlar",
+          "dokuman-numaralandirma",
+          "dokuman-onayci-bilgisi-tanimlama",
+          "fligran-tanimlama"
+        ]
+      },
+      {
+        "group": "Aksiyon Yönetimi",
+        "pages": [
+          "aksiyon-yonetimi-is-akisi",
+          "aksiyon-olusturulmasi",
+          "bekleyen-aksiyonlarim",
+          "tum-aksiyonlarim",
+          "periyodik-aksiyonlarim",
+          "taslak-aksiyonlar",
+          "aksiyon-kaynagı-tanimlama",
+          "aksiyon-turu-tanimlama",
+          "aksiyon-sikligi-tanimlama",
+          "aksiyon-önceliği-tanimlama",
+          "bekleyen-aksiyon-kullanici-islem-detaylari"
+        ]
+      },
+      {
+        "group": "CAPA ve Düzeltici Faaliyetler",
+        "pages": [
+          "capa-duzeltici-onleyici-faaliyet-yonetimi-is-akisi",
+          "capa-duzeltici-onleyici-faaliyet-yonetimi-genel-tanitim",
+          "capa-duzeltici-onleyici-faaliyet-olusturulmasi",
+          "capa-arsivi",
+          "taslak-capalar",
+          "kok-neden-analizleri",
+          "capa-kaynagi-tanimlama",
+          "capa-turu-tanimlama",
+          "capa-alt-kaynak-tanimlama",
+          "bekleyen-capa-kullanici-islem-detaylari"
+        ]
+      },
+      {
+        "group": "Denetim Yönetimi",
+        "pages": [
+          "denetim-yonetimi-is-akisi",
+          "denetim-yonetimi-genel-tanitim",
+          "denetim-olustur",
+          "denetim-takvimi",
+          "denetim-arsivi",
+          "periyodik-denetimlerim",
+          "taslak-denetimler",
+          "denetçi-tanimlama",
+          "denetim-turu-tanimlama",
+          "denetim-alt-turu-tanimlama",
+          "denetim-yeri-tanimlama",
+          "denetim-kurulusu-tanimlama",
+          "denetim-sonuc-sinifi-tanimlama"
+        ]
+      },
+      {
+        "group": "İş Akışları ve Formlar",
+        "pages": [
+          "islerim",
+          "bekleyen-akislar",
+          "bekleyen-is-akislari",
+          "tum-is-akislari",
+          "taslak-is-akislari",
+          "akisin-baslangic-formunda-akisa-eklenen-belgebelgeler-uzerinde-yapilabilecek-islemler",
+          "bekleyen-is-akislari-kullanici-islem-detaylari"
+        ]
+      },
+      {
+        "group": "Form Bileşenleri (Nasıl Yaparım)",
+        "pages": [
+          "nasil-yaparim-form-bilesenleri",
+          "nasil-yaparim-form-bilesenleri-vi",
+          "nasil-yaparim-form-bilesenleri10",
+          "qr-kod-barkod-okuyucu-ks-01",
+          "ks-02-fotograf-video-ve-ses-kaydi",
+          "ks-03-iban-ve-tckn-dogrulamasi",
+          "ks-04-hesap-tablosu-nesnesi",
+          "ks-05-lokasyon-harita-nesnesi",
+          "ks-06-ai-belge-ozetleme",
+          "ks-07-ai-ton",
+          "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
+          "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
+          "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
+          "ks-11-iliskili-belge-mimarisi"
+        ]
+      },
+      {
+        "group": "Sistem Tanımlamaları",
+        "pages": [
+          "liste-tanimlamalari",
+          "liste-tanimlamalari-ekleme",
+          "sistem-parametre-tanimlama",
+          "parametreler",
+          "sablon-tanimlama",
+          "musteri-tanimlama",
+          "tedarikci-tanimlama",
+          "sorumlu-tanimlama",
+          "e-posta-frekansi-tanimlama",
+          "eskalasyon-suresi-tanimlama",
+          "kural-motoru-rule-engine-uygulama-rehberi",
+          "ssl-sertifikasi-guncelleme"
+        ]
+      },
+      {
+        "group": "Raporlama",
+        "pages": [
+          "raporlar",
+          "statik-raporlar",
+          "surec-yonetimi-raporlari"
+        ]
+      }
+    ]
+  }
 }
