@@ -1,20 +1,6 @@
 {
   "name": "PaperWork Yardım Portalı",
-  "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
-  },
-  "navigation": [
-    {
-      "group": "Başlarken",
-      "pages": [
-        "index",
-        "nasıl-yaparım-genel-bilgilendirme",
-        "paperwork-ürün-kalite-yaklaşımı",
-        "paperwork-3ncü-parti-bileşenleri",
-        "baykuş-akademi-eğitim-videoları"
-      ]
-    },
+   "navigation": [
     {
       "group": "Doküman Yönetimi",
       "pages": [
@@ -136,16 +122,6 @@
         "raporlar",
         "statik-raporlar",
         "süreç-yönetimi-raporları"
-      ]
-    },
-    {
-      "group": "Sistem Dosyaları (ID Listesi)",
-      "pages": [
-        "a4qms010100000",
-        "a4qms010200000",
-        "a5x010200000",
-        "a5x140230000",
-        "p50050401003"
       ]
     }
   ]
