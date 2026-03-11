@@ -1,20 +1,24 @@
+---
+title: "Nasıl Yaparım Form Bileşenleri"
+---
+
 **Elektronik Formda yazı alanına format(regular expression) nasıl
 verilir?**
 
-Örneğin sadece sayı girişine izin vermek için şu ifade kullanılır: Sadece sayı girilmesi için: ^[0-9]7,10\$
+Örneğin sadece sayı girişine izin vermek için şu ifade kullanılır:Sadece sayı girilmesi için: ^[0-9]7,10\$
 
-Bunun için yazı bileşeninin doğrulama bölümünde "Düzenli ifade kalıbı" bölümüne bu ifade yazılır;
+Bunun için yazı bileşeninin doğrulama bölümünde "Düzenli ifade kalıbı"bölümüne bu ifade yazılır;
 
 ![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1627388659795.png)
 
-::::: ::: title RegEx :::
+:::::::: titleRegEx:::
 
-::: content RegEx için daha fazla bilgiye şu adresten erişebilirsiniz: [RegEx](https://www.w3schools.com/jsref/jsref_obj_regexp.asp) ::: :::::
+::: contentRegEx için daha fazla bilgiye şu adresten erişebilirsiniz:[RegEx](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)::::::::
 
 **Elektronik Formda bir bileşenin değerini nasıl
 kullanırım?**
 
-Aşağıda txtMusteriAdi isimli yazı alanının değeri bir değişkene atanmıştır.
+Aşağıda txtMusteriAdi isimli yazı alanının değeri bir değişkeneatanmıştır.
 
 ```{.javascript data-language="javascript"}
 var componentName =  "txtMusteriAdi";
@@ -24,7 +28,7 @@ var musteriAdi  =   PwForm.get(componentName);
 **Elektronik Formda bir bileşenin değerini nasıl
 güncellerim?**
 
-Aşağıda txtMusteriAdi isimli bileşenin değeri güncellenmiştir.
+Aşağıda txtMusteriAdi isimli bileşenin değerigüncellenmiştir.
 
 ```{.javascript data-language="javascript"}
 var componentName =  "txtMusteriAdi";
@@ -34,7 +38,7 @@ PwForm.set(componentName, "Paperwork");
 **Elektronik Formda bir bileşenin görünürlüğünü nasıl
 değiştiririm?**
 
-Aşağıda txtMusteriAdi isimli bileşenin görünürlüğü kapatılmıştır.
+Aşağıda txtMusteriAdi isimli bileşenin görünürlüğükapatılmıştır.
 
 ```{.javascript data-language="javascript"}
 var componentName =  "txtMusteriAdi";
@@ -44,7 +48,7 @@ PwForm.show(componentName, false);
 **Elektronik Formda bir bileşenin aktifliğini nasıl
 değiştiririm?**
 
-Aşağıda txtMusteriAdi isimli bileşenin aktifliği kapatılmıştır.
+Aşağıda txtMusteriAdi isimli bileşenin aktifliğikapatılmıştır.
 
 ```{.javascript data-language="javascript"}
 var componentName =  "txtMusteriAdi";
@@ -54,19 +58,19 @@ PwForm.enable(componentName, false);
 **Elektronik Formda bir bileşenin zorunluluğunu nasıl
 değiştiririm?**
 
-Aşağıda txtMusteriAdi isimli bileşenin zorunluluğu kaldırılmıştır.
+Aşağıda txtMusteriAdi isimli bileşenin zorunluluğukaldırılmıştır.
 
 ```{.javascript data-language="javascript"}
 var componentName =  "txtMusteriAdi";
 PwForm.required(componentName, false);
 ```
 
-\*\*Elektronik Formda [html](/tr/docs/a5x140217000) \*\*[**[]**](/tr/docs/p50050401003-11)**bileşeni nasıl
+\*\*Elektronik Formda [html](/tr/docs/a5x140217000)\*\*[**[]**](/tr/docs/p50050401003-11)**bileşeni nasıl
 kullanılır?**
 
 ![](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1627387184028.png)
 
-Yukarıdaki şekilde görüldüğü gibi HTML bileşeninin değer bölümüne HTML kodu yazılarak görünüm oluşturulmuştur. Yazılan HTML kodu aşağıdaki gibidir;
+Yukarıdaki şekilde görüldüğü gibi HTML bileşeninin değer bölümüne HTMLkodu yazılarak görünüm oluşturulmuştur. Yazılan HTML kodu aşağıdakigibidir;
 
 ```{.markup data-language="markup"}
 <div class="row">
@@ -109,7 +113,7 @@ Yukarıdaki şekilde görüldüğü gibi HTML bileşeninin değer bölümüne HT
 **Elektronik Formda HTML nesnesini kullanarak bir logo nasıl
 gösterebilirim?**
 
-Aşağıda örnek kod ile HTML nesnesi üzerinde şirketinizin logosunu gösterebilirsiniz.
+Aşağıda örnek kod ile HTML nesnesi üzerinde şirketinizin logosunugösterebilirsiniz.
 
 ```{.markup data-language="markup"}
 <br>
@@ -122,7 +126,7 @@ Aşağıda örnek kod ile HTML nesnesi üzerinde şirketinizin logosunu göster
 **Elektronik Formda HTML Bileşeni ile imaj nasıl
 gösteririm.**
 
- Aşağıdaki örnekte, sunucu üzerinde bulunan bir imaj HTML nesnesi üzerinde gösterilmiştir;
+ Aşağıdaki örnekte, sunucu üzerinde bulunan bir imaj HTML nesnesiüzerinde gösterilmiştir;
 
 ```{.markup data-language="markup"}
 <center>
@@ -139,7 +143,7 @@ da adresler'den content alımı engellenir.
 **Elektronik Formda HTML Bileşeninde tooltip nasıl
 kullanılır**
 
-Aşağıdaki örnek yardımı ile HTML TAG leri kullanılarak ekrana yazı yazılır. Bu yazının bir bölümü de tooltip yardımı ile gösterilir;
+Aşağıdaki örnek yardımı ile HTML TAG leri kullanılarak ekrana yazıyazılır. Bu yazının bir bölümü de tooltip yardımı ile gösterilir;
 
 ```{.markup data-language="markup"}
 Bir HTML nesnasinde yazıya tooltip vermek için 
@@ -149,7 +153,7 @@ Bir HTML nesnasinde yazıya tooltip vermek için
 işlem yapılır
 ```
 
- Bu tooltip belirlenirken CSS bölümünde de renk gibi değerler belirlenir;
+ Bu tooltip belirlenirken CSS bölümünde de renk gibi değerlerbelirlenir;
 
 ```{.css data-language="css"}
 .tooltip {
@@ -184,7 +188,7 @@ Bu tanımlamalar ile beraber HTML nesnesi aşağıdaki gibi görüntülenir.
 **Elektronik Formda HTML nesnesi kullanarak YouTube videosunu nasıl
 gösterebilirim?**
 
-Aşağıdaki HTML kodu kullanılarak HTML bileşeni ile video form üzerinde gösterilmiştir. iframe ile başlayan bölüm YouTube üzerindeki videodan kısa yol oluşturma yöntemi ile alınmıştır.
+Aşağıdaki HTML kodu kullanılarak HTML bileşeni ile video form üzerindegösterilmiştir. iframe ile başlayan bölüm YouTube üzerindeki videodankısa yol oluşturma yöntemi ile alınmıştır.
 
 ```{.markup data-language="markup"}
 <p></p>YouTube Örnek Videosu;</p>
@@ -208,7 +212,7 @@ allowfullscreen="true"></iframe>
 **Elektronik Formda HTML Bileşeni ile ses dosyası nasıl
 çalabilirim?**
 
-Aşağıdaki örnek aracılığı ile elektronik forma bir mp3 kaydı eklenmiş ve çalınabilir olması sağlanmıştır.
+Aşağıdaki örnek aracılığı ile elektronik forma bir mp3 kaydı eklenmiş veçalınabilir olması sağlanmıştır.
 
 ```{.markup data-language="markup"}
 <audio controls="controls" src="https://www.w3schools.com/tags/horse.mp3">
@@ -223,9 +227,9 @@ Yukarıdaki kod ile aşağıdaki nesne elektronik form üzerinde gösterilir.
 **Elektronik Formda CSS kod alanı nasıl
 kullanılır?**
 
-Elektronik formların kodlama bölümünde CSS bölümü bulunur. Bu bölüme ihtiyaç duyulan tüm CSS ler yazılabilir.
+Elektronik formların kodlama bölümünde CSS bölümü bulunur. Bu bölümeihtiyaç duyulan tüm CSS ler yazılabilir.
 
-Örnek: Bir yazı alanını css ile aşağıdaki gibi büyük harf olması sağlanır.
+Örnek: Bir yazı alanını css ile aşağıdaki gibi büyük harf olmasısağlanır.
 
 ```{.css data-language="css"}
 .formio-component-MUSTERI_NO .form-control{
@@ -236,7 +240,7 @@ Elektronik formların kodlama bölümünde CSS bölümü bulunur. Bu bölüme i
 **Elektronik Formda lokalizasyon nasıl
 kullanılır?**
 
-Elektronik formların ara yüzlerindeki nesnelerde lokalizasyon yapmak için formların kodlama bölümündeki lokalizasyon bölümü kullanılabilir. Burada ekle ile yeni başlıklar oluşturmak ve eklemek mümkündür. Daha sonra kod içinde bu değerler aşağıdaki gibi kullanılabilir.
+Elektronik formların ara yüzlerindeki nesnelerde lokalizasyon yapmakiçin formların kodlama bölümündeki lokalizasyon bölümü kullanılabilir.Burada ekle ile yeni başlıklar oluşturmak ve eklemek mümkündür. Dahasonra kod içinde bu değerler aşağıdaki gibi kullanılabilir.
 
 ```{.javascript data-language="javascript"}
 var msgKey = "_INVALID_MSG_";    // Localization alanıda bu key için değerler                                                
