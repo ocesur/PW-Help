@@ -62,6 +62,37 @@
           "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
           "ks-11-iliskili-belge-mimarisi"
         ]
+      },
+      {
+        "group": "CAPA ve Düzeltici Faaliyetler",
+        "pages": [
+          "capa-duzeltici-onleyici-faaliyet-yonetimi-is-akisi",
+          "capa-duzeltici-onleyici-faaliyet-yonetimi-genel-tanitim",
+          "capa-duzeltici-onleyici-faaliyet-olusturulmasi",
+          "capa-arsivi",
+          "taslak-capalar",
+          "kok-neden-analizleri"
+        ]
+      },
+      {
+        "group": "Denetim Yönetimi",
+        "pages": [
+          "denetim-yonetimi-is-akisi",
+          "denetim-yonetimi-genel-tanitim",
+          "denetim-olustur",
+          "denetim-takvimi",
+          "denetim-arsivi",
+          "periyodik-denetimlerim"
+        ]
+      },
+      {
+        "group": "Sistem Tanımlamaları",
+        "pages": [
+          "liste-tanimlamalari",
+          "sistem-parametre-tanimlama",
+          "kural-motoru-rule-engine-uygulama-rehberi",
+          "ssl-sertifikasi-guncelleme"
+        ]
       }
     ]
   }
