@@ -7,6 +7,16 @@
   },
   "navigation": {
     "groups": "Başlarken",
-    "pages": ["Başlarken"]
+    "pages": [
+      "index",
+      "nasil-yaparim-genel-bilgilendirme"
+    ]
+  },
+  {
+    "groups": "Doküman Yönetimi",
+    "pages": [
+      "dokuman-yonetimi",
+      "doküman-yönetimi-İş-akışı"
+    ]
   }
 }
