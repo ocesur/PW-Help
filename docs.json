@@ -15,6 +15,7 @@
             "groups": [
               {
                 "group": "İşlerim Ekranı",
+                "expanded": true,
                 "pages": [
                   "a5x020100000"
                 ]
