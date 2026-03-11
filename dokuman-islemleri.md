@@ -1,15 +1,17 @@
-#### **Yeni Kalite Kaydı Oluşturma** 
+---
+title: "Doküman İşlemleri"
+---
+
+#### **Yeni Kalite Kaydı Oluşturma**
 
 ![](data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABvAvQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2MRjHNLsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UbF9KdRQA3YvpRsX0p1FADdi+lGxfSnUUAN2L6UU6igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiua/wCE40+O8nguI5ohExUNjduwcdulbct/DEkLHcRMMpgfe9B9TmtalGpTtzq1zKnXp1bqDvYtUVXN/bjO58EHBGCef6/hQb63ChvNGCcDAJz0/wARWVjUsUVFDcRXCkxNuA68EVSt9bt7i2a4AZYEwGfrhu449O5oA0qKzRrluZthDYLhAwGfXk+g4p7azafYpLpJQ8UbBXI425I5/XNFgL9FUf7Wt1ijkm3RCUFk3DOR2PHqO1E2sWsLhAzSMWC4RSev9KLAXqKoJrFqyKWcqxRW2bST82MY9eSOlWo7iOWEyoSUGeQD2ODxQBLRUMt0iWklwp3oiFvlPXAqpDrVu8W6b918wTg7lyQCPmHHcUWA0aKpSaxZRhS86gNgjg9xml/tW02F/MJUMVyFJ5HXt2xQBcorPtdXjur17ZY5ARu2uVO1guATn8au+cnm+Xuw/XB7/SgB9FUpdSjt7iVJtwRAnKoTy2fT6Uxdbs+kkojf5sqeowT/APEk0AaFFUTrFmAxaUqF/vIRznGOR15H50T6gWjhNioneYF19No6n9RRYC9RVC31i3nOBvBJAA2knGAcnHQc4pV1myYE+aQoXduZCBjGeuPSiwF6iqE2rwJaR3EJWRXk8sZYKAec5J6dKF1m08tWd2jLIJNrKc4P8+o6U7AX6Kp/2raDrKRjrlT8vXg8cHg8Uwaxbbm3lkQFcMykA7hkfT8aVgL9FV7e+gumKwuSQN3KkcZxnn3BqVZkeRkDfOvVT1oAfRWZPrSQzmLyXYiQxk7gB0B6nv8AN0qSHVFlulj8mRY3ZkjlOMMy5yMdR0P5Vp7Kdr2M/bQva5forJXX4nkeNIXMm7bGm4Zf5tvP93kd+1Oj12OVk2QSlSQhbj5XIOFxn260/Y1Owvb0+5qUVXsboXtnHcBCgcfdPUc4qxWbTTszRNSV0FFFFIYUUUUAFZev67HoFlDO9tNctNOlvHFDjczN06kCtSua8cW91Pp2nyWdpNdvbahBO8UONxVSScZIoW6AuaR4kh1S7ns5rW5sb2BBI9vdKAxQnG4EEgj3BqW98RafaaNe6lFPHdw2aF5BbyK547detcrqmlaz4qk1K+jsZNNP9mvZ20c7qJJWZgzE7SQowMde9UbvRLvUINSm03w/NpsX9jtaG3ZURriUkEABTghcH5j61TQLf+vI759Xtls2m8yPeIBP5TSqrYI4zk8ZPGTxUdrq+95VvoVsTHGkn72dDkMOeh4APGTwT0rhx4Z1aPw5r2ky2jXV5dwJNFfNgGbAH7pueCuMAdMU3W9O1bXjq9zHot3AJ9HS2jSXbvZxLkjANNpXEtjvzrOmhdx1G0Ch/LyZ1xv/ALvXr7VJLqFnBcpbzXdvHPJ9yN5AGb6DOTXC6r4R8y48QeRo8ZSbSUS32xrgzANnb6N93n6Vn+IdG1m9W7gXSJTIYbfyZYLeImXaFz5krHcCCDgLjpS5VcD0mTU7GKYQyXtskpbYEaVQxb0xnryOKq2/iC0mvdTt5D5A01kWaWVgqHcu4EHP8647WfC9zeW3jCUaX5t1cTRNZuVUs2FTlD25B9KdqWl6ql1rc0elm4iuL21f5oUlJRY8M6IxwWB9aEl/XyGdz/adibdLj7bbeQ5IWTzV2sfY5x2NTxSpNEskTq8bgMrKchh6g15nZeGb+VYI7rTZmtzr4uWSdIx+58vG5lX5QM9hXpscaRRrHGioijCqowAPQCk1YQ6iiikMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA5W58BWlzdSzG7nXzHLkADjJzXRGyhaKON13CNdi5PbGKsUVrUr1KiSm72MaWHpUm5QVmysthArBgGJByMsTj6Ui6dbq6sFb5cEDccDp/gKtUVlc2IobeOAERjGQB19Kqto1o0QjCMqgAfKxHTOP5mr9FAFFdHs0+7GRyD949s/4mnx6bbxWxgVSYywbBbPQgj+Qq3RRcCi2kWxkWRVYMnKjcdoOSRx6ZJ4psOjW0UEUeGLRqAHDEHg5/mTWhRRcChFotnDIHRGyMYBc4GCD/ADUVajt44oTEgIQkngnPJyefxqWigCJraI27QbAI2UqQOOD1qCbS7WfygyECL7oU4HUH+YFXKKAM9NGtxGBJlnEjSFl45Y8j6dPypzaPasXY+ZudslhIc+mPpzV6ii4FeOxgilWSNSrLuxgnHOM/yFSeSnm+bty/YnnH09KkooAqXGnQ3EwlYyK4IOUcjpnH8zTDo9puZtjDcCGAY85z1/M1eooApy6XazA70OckghjwTjkfkKdJp8MkUSfvF8oYVkcqwHfmrVFAFE6TAsiPDvhKsCdjEbhgDafbgU46VaGLyzGSm0LgsegGB+hq5RRcCqNOt/ISFk3ojbwHOcnnr+dVpdBtZFOwyIxAAbeTjGOn4AVp0U7gUf7HtT1DnP3sufnPPJ9TyaJtHtJ3DOjZAA4cjIHQfoKvUUXAggsobdg0SkEJs6k8ZJ/mTT1hRJGkC/O3VjyakopAUptJtZ2cur/vDlwHIDcAYI9OBTo9Nt4rnz0VtwJIBYlVJ6kDoCat0VftJWtcj2cL3sUTpFqzSMVfe5Dbt5ypBzwe3NLHpNpDLHJHGQY8YG44JGQCR3PJ5q7RR7SfcPZQ3sRW9vHawLDCMIvQZz71LRRUt3d2UkkrIKKKKQwooooAKKKQtjHqe1AC0U3cf7rfpRuP91v0oAdRTdx/ut+lG4/3W/SgB1FN3H+636Ubj/db9KAHUU3cf7rfpRuP91v0oAdRTdx/ut+lG4/3W/SgB1FN3H+636Ubj/db9KAHUU3cf7rfpRuP91v0oAdRTdx/ut+lG4/3W/SgB1FN3H+636Ubj/db9KAHUU3cf7rfpRuP91v0oAdRTdx/ut+lG4/3W/SgB1FN3H+636Ubj/db9KAHUU3cf7rfpVPU9Vg0i0+03SyeXuC/KATk/jVRi5PljuTKSgnKT0L1Fc1/wnuk/wB25/79j/Gj/hPdJ/u3P/fsf41v9Tr/AMjOb69hv50dLRXNf8J7pP8Aduf+/Y/xq/pPiSw1mZorV3EijdtkXBI9qmWGrQXNKLsXDF0Jy5YzTZrUUUVgdAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFNP31+hp1NP31+hoAbNPFbqGlcKCcDPrTldXQOjBlIyCDxUN1DJKYWi2bo33YYkA8Ef1qmNMlDKd6ZyCTyNh3EnaPfOKYGgZ4xEsm4bG6Ec5p+azItNuIYlVZEZlPViecrjH4dqT+yGKncyFsEZ564AH5EGiyA1aKyxpkzTO0joVZgWAz82Gz/LinzafK9ikCMnys3X0OcY+mRRYDRorKl0uV4mCtGXY8sc5+7gfrzV5RcKgUeWSBgEk88DH65oAnooopAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXN+O/+Rd/7bJ/Wukrm/Hf/Iu/9tk/rXThP48PU5cb/u8/Q83q/baNeXduJoo1KtnYrOA0mOu0Hk/hVCtmx1e0iNlJeWssktngRtHJtBGSRkY7En619NVc0vcX9fgfIUY05StUdl/XkzGroPBH/IzRf9c3/lWLeCIXcvkSmWItlXK7Sc+ora8Ef8jNF/1zf+VZ4l3oSfkzXCK2JgvNHplFFFfKH2gUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADC4BxijzB6UxvvGsiTV5ILiYy+U8KStHsQfvAFXOevNNIRteYPSjzB6Vi/24PtcUJixvLIRuBAYY/i6Ywfz4pq68Fj3NH5pKCT5SFwNu4/iMU7AbnmD0o8welY512NZFRoWDF9jAMDtOcD86cNXL2M06w7Hj2YDtkYbGCSO3PNFgNbzB6UeYPSsQaxJFciKbynVXKNJHwDyuD14xu5ol19ViZo4Mny2dSzgBiM8fpRYDb8welHmD0rIfW0TI8klwSu0OOoZV/8AZq0xnAyMHuPSlYLk9FFFIYUUUUAFFFFABTWyCDjOKdRQA3f/ALLflRv/ANlvyp1FADd/+y35Ub/9lvyp1FADd/8Ast+VG/8A2W/KnUUAN3/7LflRv/2W/KnUUAN3/wCy35Ub/wDZb8qdRQA3f/st+VG//Zb8qdRQA3f/ALLflRv/ANlvyp1FADd/+y35Ub/9lvyp1FADd/8Ast+VG/8A2W/KnUUAN3/7LflRv/2W/KnUUAN3/wCy35Ub/wDZb8qdRQA3f/st+VG//Zb8qdRQA3f/ALLflWH4vtLjUNE8m0heWTzVO0DtzW9RWlKo6c1NdDOrTVWDg+p5R/wjGsf9A+b9P8aP+EY1j/oHzfp/jXq9Fej/AGtV/lX4nlf2JR/mf4HlH/CMax/0D5v0/wAa3vCHh7ULPV/td3AYY40IAYjLE13NFZ1czqVIODS1NKOU0qU1NN6BRRRXnHqhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAQt941GIYg7OIow7cM20ZP1NWcA9qNo9BTuKxWEESqFWKMKOgCjA70gt4RnEMYz1wg5q1tHoKNo9BRcLFYwQlgxhjLDoSgzSiNACAigEYI2jkVY2j0FG0egouFir9nhCbPJj2AY27Bj8qT7JB5ok8lNwUoMKOh7Vb2j0FG0egouFiqLeEHIhjBPcIKkqbaPQUYHpRcLC0UUUhhRRRQAUUUUAFFFFABRRRQAUUhOBmooLqO4TchOD0yOtAE1FIWAxz1pokBcqM5AzQA+iimSSLFG0j8KoyaAH0VDDcxzpuQnGdvI70C6jMauuSrHjAoAmopu9c4zzQHU4569KAHUVF9oj+0GDP7wLvxjtSxzJLu2HO04PHegCSiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqvDewzsyoTlRk5HvigCxRUX2hPnAySnBGPbNOEqlQemR3oAfRTS6jPPTrUU13HBKkb53P0wKAJ6KiWdWQtggDsafG4kXcAR9aAHUUVFcXCWyBpM4JwMDvQBLRUJuohB5247Nu7OO1OMqiQJg5PegCSim+YuCc9KNw556DNADqKggu4rgEoTgEdR69KDeRCIy5OwEgnHTH/6qAJ6KYsiswAzyM5qNbyF7Yzhj5Yzzj0oAnopAc0tABRRUMl1HHIUYncMcY9TgUATUU3euAc8Go3uokEhLH92AW49aAJqKbuGcZ5xmoobyKcsEzlTg5HegCeioZLmONwrE8nAOO9SK4bdjPBxQA6iiigAoqFrqNXZSTlWVTx3PSpN64zng0AOopiyBiwGflpd6+vfFADqKY8ixozsflUEmmx3EcudpPB29O9AEtFN3rnGabHMkoyp7kdPQ4NAElFRrMjOUB+YAHp2NPBBGR0oAWiiigAooooAKKSqyahDIrMm4hcZ49aALVFRvMqYyCc+lDTIhUMeWO0cd6AJKKhW6jZgvIJBbBHYY/xqagAooooAKKiaYJMsZ7qW/L/9dElwkRUNnLdABQBLRSAg9O1LQAUUUUAFFFFABRRRQAUUUUAf/9k=)
 
-1.  Kullanıcının **ilgili klasörde yazma yetkisi** varsa, **Doküman
-    Oluştur** butonu aktif olur.
+1. Kullanıcının **ilgili klasörde yazma yetkisi** varsa, **Doküman
+   Oluştur** butonu aktif olur.
+2. Bu butona tıklanmasıyla kullanıcı, klasör içerisine **yeni doküman
+   eklemek için talep** oluşturabilir.
 
-2.  Bu butona tıklanmasıyla kullanıcı, klasör içerisine **yeni doküman
-    eklemek için talep** oluşturabilir.
-
-> Doküman ekleme yetkisi doğrudan kullanıcının klasördeki yazma
-> yetkisine bağlıdır.
+> Doküman ekleme yetkisi doğrudan kullanıcının klasördeki yazma yetkisine bağlıdır.
 
 "Doküman Oluştur" butonuna tıklandığında kullanıcı için **doküman ekleme
 formu** aktif hale gelir.
@@ -22,40 +24,17 @@ olabilir.](data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwkHBgoJCAk
 
 Formda yer alan alanlar ve işlevleri şöyle özetlenebilir:
 
-- **Doküman Adı:** Yüklenen doküman için sistem tarafından otomatik
-  olarak atanır. Kullanıcı manuel müdahale yapmaz.
-
-- **Doküman Sahibi Ad -- Soyad:** Mevcut kullanıcılar listesinden
-  seçilir; doküman sorumlusunun atanmasını sağlar.
-
-- **Doküman Sahibi Eposta:** Doküman sahibi seçimine bağlı olarak sistem
-  otomatik olarak atanır. Doküman sahibi ile ilgili hatırlatma ve
-  bildirimler bu e-posta üzerinden yapılır.
-
-- **Firma:** Sistem içerisinde tanımlı firmalar arasından seçim yapılır.
-  Firma tanımlamaları için **Parametreler -- Liste Tanımlamaları --
+- **Doküman Adı:** Yüklenen doküman için sistem tarafından otomatik olarak atanır. Kullanıcı manuel müdahale yapmaz.
+- **Doküman Sahibi Ad -- Soyad:** Mevcut kullanıcılar listesinden seçilir; doküman sorumlusunun atanmasını sağlar.
+- **Doküman Sahibi Eposta:** Doküman sahibi seçimine bağlı olarak sistem otomatik olarak atanır. Doküman sahibi ile ilgili hatırlatma ve bildirimler bu e-posta üzerinden yapılır.
+- **Firma:** Sistem içerisinde tanımlı firmalar arasından seçim yapılır. Firma tanımlamaları için **Parametreler -- Liste Tanımlamaları --
   Firma Tanımlama** sayfasına bakabilirsiniz.
-
-- **Lokasyon:** Seçilen firmaya bağlı olarak tanımlı lokasyonlar
-  listelenir. Kullanıcı buradan seçim yapar. Lokasyon tanımlamaları için
-  **Parametreler -- Liste Tanımlamaları -- Lokasyon Tanımlama**
-  sayfasına bakabilirsiniz.
-
-- **Departman:** Seçilen lokasyona bağlı tanımlı departmanlar
-  listelenir. Kullanıcı ilgili departmanı seçer. Departman tanımlamaları
-  için **Parametreler -- Liste Tanımlamaları -- DYS Departman
+- **Lokasyon:** Seçilen firmaya bağlı olarak tanımlı lokasyonlar listelenir. Kullanıcı buradan seçim yapar. Lokasyon tanımlamaları için **Parametreler -- Liste Tanımlamaları -- Lokasyon Tanımlama** sayfasına bakabilirsiniz.
+- **Departman:** Seçilen lokasyona bağlı tanımlı departmanlar listelenir. Kullanıcı ilgili departmanı seçer. Departman tanımlamaları için **Parametreler -- Liste Tanımlamaları -- DYS Departman
   Tanımlama** sayfasına bakabilirsiniz.
-
-- **Doküman Türü:** Firma ve departmana bağlı olarak tanımlı doküman
-  türleri listelenir. Kullanıcı burada seçim yapar. Doküman türü
-  tanımlamaları için **Parametreler -- Liste Tanımlamaları -- Kalite
+- **Doküman Türü:** Firma ve departmana bağlı olarak tanımlı doküman türleri listelenir. Kullanıcı burada seçim yapar. Doküman türü tanımlamaları için **Parametreler -- Liste Tanımlamaları -- Kalite
   Kaydı Dokümanları** sayfasına bakabilirsiniz.
-
-- **Doküman Gözden Geçirme Hatırlatması Yapılsın mı?:** Seçildiğinde,
-  doküman sahibi kullanıcıya belirlenen gözden geçirme periyoduna uygun
-  hatırlatma e-postası otomatik olarak gönderilir.
-
-- **Doküman Yükle:** Kullanıcının dokümanı sisteme eklemesini sağlayan
-  alandır. Sürükle-bırak veya dosya seçimi ile yükleme yapılabilir.
+- **Doküman Gözden Geçirme Hatırlatması Yapılsın mı?:** Seçildiğinde, doküman sahibi kullanıcıya belirlenen gözden geçirme periyoduna uygun hatırlatma e-postası otomatik olarak gönderilir.
+- **Doküman Yükle:** Kullanıcının dokümanı sisteme eklemesini sağlayan alandır. Sürükle-bırak veya dosya seçimi ile yükleme yapılabilir.
 
 > Bu alanlar, dokümanın eksiksiz olarak sisteme yüklenmesini sağlar.
