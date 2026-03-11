@@ -8,12 +8,6 @@
   },
    "navigation": [
      {
-      "group": "Başlarken",
-      "pages": [
-        "nasil-yaparim-genel-bilgilendirme"
-      ]
-    },
-    {
       "group": "Doküman Yönetimi",
       "pages": [
         "dokuman-yonetimi",
