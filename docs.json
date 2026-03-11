@@ -8,17 +8,12 @@
   "navigation": {
     "groups": [
       {
-        "group": "PaperWork Yardım Portalı",
-        "pages": [
-          {
-            "group": "Baslarken",
-            "pages": []
-          },
-          {
-            "group": "Doküman Yönetimi",
-            "pages": []
-          }
-        ]
+        "group": "Baslarken",
+        "pages": []
+      },
+      {
+        "group": "Doküman Yönetimi",
+        "pages": []
       }
     ]
   }
