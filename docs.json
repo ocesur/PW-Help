@@ -11,6 +11,12 @@
         "tab": "PaperWork",
         "anchors": [
           {
+            "anchor": "PaperWork BPM & ECM",
+            "pages": [
+              "a5x010100000"
+            ]
+          },
+          {
             "anchor": "İşlerim",
             "groups": [
               {
