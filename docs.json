@@ -6,6 +6,11 @@
     "primary": "#0D9373"
   },
   "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "PapeWork",
+        "icon": "book",
+        "description": "",
     "groups": [
       {
         "group": "Başlarken",
@@ -140,5 +145,7 @@
         ]
       }
     ]
-  }
+   }
+  ]
+ }
 }
