@@ -1,35 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
   "name": "PaperWork Yardım Portalı",
   "colors": {
     "primary": "#0D9373"
   },
-  "navigation": {
-    "tabs": [
-      {
-        "name": "Kullanım Kılavuzu",
-        "url": "kullanim"
-      },
-      {
-        "name": "Teknik Referans",
-        "url": "teknik"
-      }
-    ],
-    "anchors": [
-      {
-        "name": "Eğitim Videoları",
-        "icon": "video",
-        "url": "baykus-akademi-egitim-videolari"
-      },
-      {
-        "name": "API Komutları",
-        "icon": "code",
-        "url": "api-komutlari"
-      }
-    ],
-    "groups": {
-      "kullanim": [
+  "navigation": [
+    {
+      "tab": "Kullanım Kılavuzu",
+      "groups": [
         {
           "group": "Başlarken",
           "pages": [
@@ -66,43 +44,12 @@
             "periyodik-aksiyonlarim",
             "taslak-aksiyonlar"
           ]
-        },
-        {
-          "group": "CAPA ve Düzeltici Faaliyetler",
-          "pages": [
-            "capa-duzeltici-onleyici-faaliyet-yonetimi-is-akisi",
-            "capa-duzeltici-onleyici-faaliyet-yonetimi-genel-tanitim",
-            "capa-duzeltici-onleyici-faaliyet-olusturulmasi",
-            "capa-arsivi",
-            "taslak-capalar",
-            "kok-neden-analizleri"
-          ]
-        },
-        {
-          "group": "Denetim Yönetimi",
-          "pages": [
-            "denetim-yonetimi-is-akisi",
-            "denetim-yonetimi-genel-tanitim",
-            "denetim-olustur",
-            "denetim-takvimi",
-            "denetim-arsivi",
-            "periyodik-denetimlerim",
-            "taslak-denetimler"
-          ]
-        },
-        {
-          "group": "İş Akışları ve Formlar",
-          "pages": [
-            "islerim",
-            "bekleyen-akislar",
-            "bekleyen-is-akislari",
-            "tum-is-akislari",
-            "taslak-is-akislari",
-            "akisin-baslangic-formunda-akisa-eklenen-belgebelgeler-uzerinde-yapilabilecek-islemler"
-          ]
         }
-      ],
-      "teknik": [
+      ]
+    },
+    {
+      "tab": "Teknik Referans",
+      "groups": [
         {
           "group": "Form Bileşenleri (KS Serisi)",
           "pages": [
@@ -131,28 +78,18 @@
             "parametreler",
             "sablon-tanimlama"
           ]
-        },
-        {
-          "group": "Tanımlamalar",
-          "pages": [
-            "liste-tanimlamalari",
-            "liste-tanimlamalari-ekleme",
-            "musteri-tanimlama",
-            "tedarikci-tanimlama",
-            "sorumlu-tanimlama",
-            "e-posta-frekansi-tanimlama",
-            "eskalasyon-suresi-tanimlama"
-          ]
-        },
-        {
-          "group": "Raporlama Teknik",
-          "pages": [
-            "raporlar",
-            "statik-raporlar",
-            "surec-yonetimi-raporlari"
-          ]
         }
       ]
+    },
+    {
+      "anchor": "Eğitim Videoları",
+      "icon": "video",
+      "href": "https://paperwork.mintlify.app/baykus-akademi-egitim-videolari"
+    },
+    {
+      "anchor": "API Komutları",
+      "icon": "code",
+      "href": "https://paperwork.mintlify.app/api-komutlari"
     }
-  }
+  ]
 }
