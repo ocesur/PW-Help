@@ -8,7 +8,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "PaperWork"
+        "tab": "PaperWork",
+        "anchors": [
+          {
+            "anchor": "İşlerim"
+          }
+        ]
       },
       {
         "tab": "PWQMS",
