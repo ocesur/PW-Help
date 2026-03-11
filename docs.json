@@ -6,17 +6,20 @@
     "primary": "#0D9373"
   },
   "navigation": {
-    "groups": "Başlarken",
+    "groups": [
+      {
+      "group": "Başlarken",
     "pages": [
       "index",
       "nasil-yaparim-genel-bilgilendirme"
     ]
   },
   {
-    "groups": "Doküman Yönetimi",
+    "group": "Doküman Yönetimi",
     "pages": [
       "dokuman-yonetimi",
       "doküman-yönetimi-İş-akışı"
     ]
   }
+    ]
 }
