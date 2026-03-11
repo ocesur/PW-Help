@@ -8,18 +8,13 @@
   },
   "navigation": [
     {
-      "group": "Başlarken",
+      "group": "Baslarken",
       "pages": [
         "dokuman-yonetimi"
       ]
     },
     {
       "group": "Doküman Yönetimi",
-      "pages": [
-        "dokuman-yonetimi"
-      ]
-    },
-    {
       "pages": [
         "dokuman-yonetimi"
       ]
