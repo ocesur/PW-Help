@@ -8,6 +8,9 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "PaperWork"
+      },
+      {
         "tab": "PWQMS",
         "groups": [
           {
@@ -100,6 +103,7 @@
         "dropdowns": [
           {
             "dropdown": "001-Genel Bilgilendirme",
+            "icon": "circle-info",
             "pages": [
               "nasil-yaparim-genel-bilgilendirme"
             ]
