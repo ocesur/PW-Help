@@ -11,7 +11,15 @@
         "tab": "PaperWork",
         "anchors": [
           {
-            "anchor": "İşlerim"
+            "anchor": "İşlerim",
+            "groups": [
+              {
+                "group": "İşlerim Ekranı",
+                "pages": [
+                  "a5x020100000"
+                ]
+              }
+            ]
           }
         ]
       },
