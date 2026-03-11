@@ -12,7 +12,7 @@ klasör yapısının bulunduğu alandır.
 Bu sayede kullanıcılar, gerekli dokümanlara hızlı ve düzenli şekilde
 erişebilir.
 
-https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703114398.png
+![image:image-1772703114398](https://cdn.document360.io/e072f215-2317-4c24-b7a8-132a798e9cac/Images/Documentation/image-1772703114398.png)
 
 #### Klasör ve Doküman Yetkilendirmeleri
 
