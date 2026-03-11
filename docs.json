@@ -6,94 +6,133 @@
     "primary": "#0D9373"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Başlarken",
-        "pages": [
-          "nasil-yaparim-genel-bilgilendirme",
-          "paperwork-urun-kalite-yaklasimi",
-          "paperwork-3ncu-parti-bilesenleri"
+        "tab": "PaperWork",
+        "anchors": [
+          {
+            "anchor": "İşlerim",
+            "groups": [
+              {
+                "group": "İşlerim Ekranı",
+                "expanded": true,
+                "pages": [
+                  "a5x020100000"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
-        "group": "Doküman Yönetimi",
-        "pages": [
-          "dokuman-yonetimi",
-          "dokuman-yonetimi-is-akisi",
-          "gncel-dokmanlar",
-          "dokuman-arsivi-1",
-          "dokuman-kunyesi",
-          "dokuman-islemleri",
-          "dokman-olutur",
-          "dokman-revize-talebi-oluturma",
-          "dokman-askya-alma-iptal-talebi-oluturma",
-          "favori-dokumanlar",
-          "dokuman-numaralandirma",
-          "dokuman-onayci-bilgisi-tanimlama",
-          "fligran-tanimlama"
+        "tab": "PWQMS",
+        "groups": [
+          {
+            "group": "Başlarken",
+            "pages": [
+              "paperwork-urun-kalite-yaklasimi",
+              "paperwork-3ncu-parti-bilesenleri"
+            ]
+          },
+          {
+            "group": "Doküman Yönetimi",
+            "pages": [
+              "dokuman-yonetimi",
+              "dokuman-yonetimi-is-akisi",
+              "gncel-dokmanlar",
+              "dokuman-arsivi-1",
+              "dokuman-kunyesi",
+              "dokuman-islemleri",
+              "dokman-olutur",
+              "dokman-revize-talebi-oluturma",
+              "dokman-askya-alma-iptal-talebi-oluturma",
+              "favori-dokumanlar",
+              "dokuman-numaralandirma",
+              "dokuman-onayci-bilgisi-tanimlama",
+              "fligran-tanimlama"
+            ]
+          },
+          {
+            "group": "Aksiyon Yönetimi",
+            "pages": [
+              "aksiyon-yonetimi-is-akisi",
+              "aksiyon-olusturulmasi",
+              "bekleyen-aksiyonlarim",
+              "tum-aksiyonlarim",
+              "periyodik-aksiyonlarim",
+              "taslak-aksiyonlar"
+            ]
+          },
+          {
+            "group": "Form Bileşenleri (KS Serisi)",
+            "pages": [
+              "qr-kod-barkod-okuyucu-ks-01",
+              "ks-02-fotograf-video-ve-ses-kaydi",
+              "ks-03-iban-ve-tckn-dogrulamasi",
+              "ks-04-hesap-tablosu-nesnesi",
+              "ks-05-lokasyon-harita-nesnesi",
+              "ks-06-ai-belge-ozetleme",
+              "ks-07-ai-ton",
+              "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
+              "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
+              "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
+              "ks-11-iliskili-belge-mimarisi"
+            ]
+          },
+          {
+            "group": "CAPA ve Düzeltici Faaliyetler",
+            "pages": [
+              "capa-duzeltici-onleyici-faaliyet-yonetimi-is-akisi",
+              "capa-duzeltici-onleyici-faaliyet-yonetimi-genel-tanitim",
+              "capa-duzeltici-onleyici-faaliyet-olusturulmasi",
+              "capa-arsivi",
+              "taslak-capalar",
+              "kok-neden-analizleri"
+            ]
+          },
+          {
+            "group": "Denetim Yönetimi",
+            "pages": [
+              "denetim-yonetimi-is-akisi",
+              "denetim-yonetimi-genel-tanitim",
+              "denetim-olustur",
+              "denetim-takvimi",
+              "denetim-arsivi",
+              "periyodik-denetimlerim"
+            ]
+          },
+          {
+            "group": "Sistem Tanımlamaları",
+            "pages": [
+              "liste-tanimlamalari",
+              "sistem-parametre-tanimlama",
+              "kural-motoru-rule-engine-uygulama-rehberi",
+              "ssl-sertifikasi-guncelleme"
+            ]
+          }
         ]
       },
       {
-        "group": "Aksiyon Yönetimi",
-        "pages": [
-          "aksiyon-yonetimi-is-akisi",
-          "aksiyon-olusturulmasi",
-          "bekleyen-aksiyonlarim",
-          "tum-aksiyonlarim",
-          "periyodik-aksiyonlarim",
-          "taslak-aksiyonlar"
-        ]
-      },
-      {
-        "group": "Form Bileşenleri (KS Serisi)",
-        "pages": [
-          "nasil-yaparim-form-bilesenleri",
-          "nasil-yaparim-form-bilesenleri-vi",
-          "nasil-yaparim-form-bilesenleri10",
-          "qr-kod-barkod-okuyucu-ks-01",
-          "ks-02-fotograf-video-ve-ses-kaydi",
-          "ks-03-iban-ve-tckn-dogrulamasi",
-          "ks-04-hesap-tablosu-nesnesi",
-          "ks-05-lokasyon-harita-nesnesi",
-          "ks-06-ai-belge-ozetleme",
-          "ks-07-ai-ton",
-          "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
-          "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
-          "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
-          "ks-11-iliskili-belge-mimarisi"
-        ]
-      },
-      {
-        "group": "CAPA ve Düzeltici Faaliyetler",
-        "pages": [
-          "capa-duzeltici-onleyici-faaliyet-yonetimi-is-akisi",
-          "capa-duzeltici-onleyici-faaliyet-yonetimi-genel-tanitim",
-          "capa-duzeltici-onleyici-faaliyet-olusturulmasi",
-          "capa-arsivi",
-          "taslak-capalar",
-          "kok-neden-analizleri"
-        ]
-      },
-      {
-        "group": "Denetim Yönetimi",
-        "pages": [
-          "denetim-yonetimi-is-akisi",
-          "denetim-yonetimi-genel-tanitim",
-          "denetim-olustur",
-          "denetim-takvimi",
-          "denetim-arsivi",
-          "periyodik-denetimlerim"
-        ]
-      },
-      {
-        "group": "Sistem Tanımlamaları",
-        "pages": [
-          "liste-tanimlamalari",
-          "sistem-parametre-tanimlama",
-          "kural-motoru-rule-engine-uygulama-rehberi",
-          "ssl-sertifikasi-guncelleme"
+        "tab": "Nasıl Yaparım",
+        "dropdowns": [
+          {
+            "dropdown": "001-Genel Bilgilendirme",
+            "icon": "circle-info",
+            "pages": [
+              "nasil-yaparim-genel-bilgilendirme"
+            ]
+          },
+          {
+            "dropdown": "002-Elektronik Formlar",
+            "pages": [
+              "nasil-yaparim-form-bilesenleri",
+              "nasil-yaparim-form-bilesenleri-vi",
+              "nasil-yaparim-form-bilesenleri10"
+            ]
+          }
         ]
       }
     ]
-  }
+  },
+  "favicon": "/images/kafa.png"
 }
