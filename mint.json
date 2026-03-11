@@ -6,128 +6,17 @@
     "light": "#3388FF",
     "dark": "#0033AA"
   },
-   "navigation": [
-     {
+  "navigation": [
+    {
+      "group": "Başlarken",
+      "pages": [
+        "dokuman-yonetimi"
+      ]
+    },
+    {
       "group": "Doküman Yönetimi",
       "pages": [
-        "dokuman-yonetimi",
-        "doküman-yönetimi-İş-akışı",
-        "doküman-arşivi-1",
-        "doküman-künyesi",
-        "doküman-numaralandırma",
-        "doküman-onaycı-bilgisi-tanımlama",
-        "doküman-İşlemleri",
-        "dokman-olutur",
-        "dokman-revize-talebi-oluturma",
-        "dokman-askya-alma-iptal-talebi-oluturma",
-        "favori-dokümanlar",
-        "gncel-dokmanlar",
-        "fligran-tanımlama"
-      ]
-    },
-    {
-      "group": "Aksiyon Yönetimi",
-      "pages": [
-        "aksiyon-yönetimi-İş-akışı",
-        "aksiyon-oluşturulması",
-        "aksiyon-kaynağı-tanımlama",
-        "aksiyon-sıklığı-tanımlama",
-        "aksiyon-türü-tanımlama",
-        "aksiyon-önceliği-tanımlama",
-        "bekleyen-aksiyonlarım",
-        "tüm-aksiyonlarım",
-        "periyodik-aksiyonlarım",
-        "taslak-aksiyonlar",
-        "bekleyen-aksiyon-kullanıcı-İşlem-detayları"
-      ]
-    },
-    {
-      "group": "CAPA (Düzeltici Önleyici Faaliyetler)",
-      "pages": [
-        "capa-düzeltici-önleyici-faaliyet-yönetimi-İş-akışı",
-        "capa-düzeltici-önleyici-faaliyet-yöetimi-genel-tanıtım",
-        "capa-düzeltici-önleyici-faaliyet-oluşturulması",
-        "capa-kaynağı-tanımlama",
-        "capa-türü-tanımlama",
-        "capa-alt-kaynak-tanımlama",
-        "capa-arşivi",
-        "bekleyen-capa-kullanıcı-İşlem-detayları",
-        "taslak-capalar",
-        "kök-neden-analizleri"
-      ]
-    },
-    {
-      "group": "Denetim Yönetimi",
-      "pages": [
-        "denetim-yönetimi-İş-akışı",
-        "denetim-yönetimi-genel-tanıtım",
-        "denetim-oluştur",
-        "denetim-takvimi",
-        "denetim-türü-tanımlama",
-        "denetim-alt-türü-tanımlama",
-        "denetim-yeri-tanımlama",
-        "denetim-kuruluşu-tanımlama",
-        "denetim-sonuç-sınıfı-tanımlama",
-        "denetçi-tanımlama",
-        "denetim-arşivi",
-        "periyodik-denetimlerim",
-        "taslak-denetimler"
-      ]
-    },
-    {
-      "group": "İş Akışları ve İşlerim",
-      "pages": [
-        "İşlerim",
-        "bekleyen-İş-akışları",
-        "bekleyen-akışlar",
-        "tüm-İş-akışları",
-        "taslak-İş-akışları",
-        "akışın-başlangıç-formunda-akışa-eklenen-belgebelgeler-üzerinde-yapılabilecek-işlemler",
-        "bekleyen-İş-akışları-kullanıcı-İşlem-detayları"
-      ]
-    },
-    {
-      "group": "Form Bileşenleri (Nasıl Yaparım)",
-      "pages": [
-        "nasil-yaparim-form-bilesenleri",
-        "nasil-yaparim-form-bilesenleri-vi",
-        "nasil-yaparim-form-bilesenleri10",
-        "qr-kod-barkod-okuyucu-ks-01",
-        "ks-02-fotoğraf-video-ve-ses-kaydı",
-        "ks-03-iban-ve-tckn-doğrulaması",
-        "ks-04-hesap-tablosu-nesnesi",
-        "ks-05-lokasyon-harita-nesnesi",
-        "ks-06-ai-belge-özetleme",
-        "ks-07-ai-ton",
-        "ks-08-koşula-bağlı-yetki-ile-dinamik-erişim-kontrolü",
-        "ks-09-filigran-ile-belge-güvenliği-ve-İzlenebilirlik",
-        "ks-10-yorumlar-İle-birleşik-İletişim-mimarisi",
-        "ks-11-İlişkili-belge-mimarisi"
-      ]
-    },
-    {
-      "group": "Sistem Tanımlamaları ve Admin",
-      "pages": [
-        "liste-tanımlamaları",
-        "liste-tanımlamaları-ekleme",
-        "sistem-parametre-tanımlama",
-        "parametreler",
-        "şablon-tanımlama",
-        "müşteri-tanımlama",
-        "tedarikçi-tanımlama",
-        "sorumlu-tanımlama",
-        "e-posta-frekansı-tanımlama",
-        "eskalasyon-süresi-tanımlama",
-        "kural-motoru-rule-engine-uygulama-rehberi",
-        "ssl-sertifikası-guncelleme"
-      ]
-    },
-    {
-      "group": "Raporlama",
-      "pages": [
-        "raporlar",
-        "statik-raporlar",
-        "süreç-yönetimi-raporları"
+        "dokuman-yonetimi"
       ]
     }
   ]
