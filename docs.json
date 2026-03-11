@@ -8,8 +8,17 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": []
+        "group": "PaperWork Yardım Portalı",
+        "pages": [
+          {
+            "group": "Başlarken",
+            "pages": []
+          },
+          {
+            "group": "Doküman Yönetimi",
+            "pages": []
+          }
+        ]
       }
     ]
   }
