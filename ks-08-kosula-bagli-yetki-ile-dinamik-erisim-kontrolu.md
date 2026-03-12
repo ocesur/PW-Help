@@ -1,103 +1,63 @@
-## []{#Xd63e85f29a50b6ef68b9bdfe456189829d3916c display="false"}Koşula Bağlı Yetki ile Dinamik Erişim Kontrolü {#koşula-bağlı-yetki-ile-dinamik-erişim-kontrolü block-id="mm35z3ub-ayypqj-054"}
+---
+title: "Koşula Bağlı Yetki ile Dinamik Erişim Kontrolü"
+sidebarTitle: "KS-08 Koşula Bağlı Yetki ile Dinamik Erişim"
+description: "Belge ve kayıtların erişim yetkilerini, form alanlarına girilen değerlere göre otomatik ve dinamik olarak yönetin."
+keywords: "dinamik yetkilendirme, erişim kontrolü, veri gizliliği, kabinet yetkisi, arşiv tipi güvenliği, koşullu erişim"
+---
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm35z3uc-0iwsoa-055"}
+## Genel Bakış
 
-Koşula Bağlı Yetki özelliği, belge veya dosya kartı kayıtlarının erişim
-yetkilerinin; kayıt sırasında tip alanlarına girilen değerlere göre
-otomatik olarak belirlenmesini sağlar. Bu sayede yetkilendirme, sabit
-rol veya kullanıcı tanımlarına bağlı kalmadan dinamik şekilde uygulanır.
+**Koşula Bağlı Yetki** özelliği; belge veya dosya kartı kayıtlarının erişim yetkilerinin, kayıt anında tip alanlarına (metadata) girilen değerlere göre otomatik olarak belirlenmesini sağlar. Bu sayede yetkilendirme, sabit rol tanımlarına bağlı kalmadan, belgenin içeriğine göre dinamik ve esnek bir şekilde uygulanır.
 
-Bu yapı, özellikle farklı senaryolarda farklı kullanıcı gruplarının
-erişmesi gereken arşiv ve dosya kartı kayıtlarında güvenli ve esnek bir
-erişim kontrolü sağlar.
+Bu yapı, özellikle tek bir arşiv tipi altında toplanan ancak farklı departman veya gizlilik seviyelerine göre ayrıştırılması gereken dökümanlar için üst düzey güvenlik sağlar.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm35z3uc-ahxfd1-058"}
+## Ne Zaman Kullanılmalıdır?
 
-Aşağıdaki durumlarda Koşula Bağlı Yetki kullanımı önerilir:
+Aşağıdaki durumlarda Koşula Bağlı Yetki kullanımı operasyonel yükü azaltır ve güvenliği artırır:
 
-- Aynı arşiv tipinde farklı içeriklere farklı kullanıcıların erişmesi
-  gerekiyorsa
+- **Çoklu Birim Yönetimi:** Aynı arşiv tipinde (Örn: Sözleşmeler) farklı birimlerin sadece kendi belgelerini görmesi istendiğinde.
+- **Veri Gizliliği:** Belgenin "Gizlilik Derecesi" alanına göre erişimin otomatik kısıtlanması gerektiğinde.
+- **Dinamik Rol Atama:** Statik kullanıcı listeleri yerine, döküman içeriğine (Örn: Şehir, Proje Kodu, Tutar) dayalı erişim kontrolü hedeflendiğinde.
+- **Hassas Veri Yönetimi:** Belge ve dosya kartlarında kişi bazlı veri gizliliği kritik bir öneme sahipse.
 
-- Yetkilendirmenin, form alanlarına girilen değerlere göre değişmesi
-  isteniyorsa
+## Teknik Çalışma Mekanizması
 
-- Statik rol tanımları yerine dinamik erişim kontrolü hedefleniyorsa
+Koşula Bağlı Yetki, **klasör yetkileri etkin olmayan kabinetlerde** doğrudan Arşiv Tipleri veya Dosya Kartı Tipleri üzerinde yapılandırılır.
 
-- Belge ve dosya kartı kayıtlarında veri gizliliği kritikse
+**İşleyiş Adımları:**
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm35z3uc-zab9lw-065"}
+1. **Konfigürasyon:** Arşiv tipi içindeki "Yetkiler" sekmesinden "Koşula Bağlı Yetki" seçeneği aktif edilir.
+2. **Kriter Tanımlama:** Tip alanlarına (Örn: Departman, Tutar, Bölge) bağlı mantıksal koşullar oluşturulur.
+3. **Yetki Seti Atama:** Her koşul için (Örn: Departman = 'Finans') hangi kullanıcı grubunun hangi yetkilere (Görüntüleme, Yazma, Silme vb.) sahip olacağı belirlenir.
+4. **Otomatik Uygulama:** Belge arşivlendiği anda sistem girilen değerleri kontrol eder ve ilgili yetki setini saniyeler içinde atar.
 
-Koşula Bağlı Yetki, **klasör yetkileri etkin olmayan kabinetlerde**
-arşiv tipleri ve dosya kartı tipleri üzerinde yapılandırılarak çalışır.
+## Örnek Kullanım Senaryoları
 
-Temel çalışma adımları:
+### 1. Departman Bazlı Belge Erişimi
 
-1.  Arşiv tipi veya dosya kartı tipinde "Yetkiler" sekmesi açılır
+Belge arşivlenirken "Departman" alanı "İnsan Kaynakları" olarak seçilirse, bu belgeye sadece İK yetki setine dahil olan kişiler erişebilir. Diğer departmanlar belgeyi arama sonuçlarında dahi göremez.
 
-2.  "Koşula Bağlı Yetki" seçimi aktif edilir
+### 2. Gizlilik Seviyesine Göre Filtreleme
 
-3.  Tip alanlarına bağlı koşullar tanımlanır
+Form üzerinde gizlilik seviyesi "Çok Gizli" seçilen bir döküman, sadece üst yönetim yetki setine sahip kullanıcılara açılırken; "Genel" seçilen dökümanlar tüm personele açılabilir.
 
-4.  Her koşul için ilgili yetki seti belirlenir
+### 3. Proje Bazlı Dosya Kartı Yönetimi
 
-5.  Kayıt sırasında girilen değerlere göre yetkilendirme otomatik
-    uygulanır
+Dosya kartı oluşturulurken girilen "Proje Kodu" sayesinde, sadece o projede görevli ekip üyelerine otomatik erişim izni verilir.
 
-Yetkilendirme işlemi, belge veya kayıt oluşturulurken gerçekleştirilir.
+## Sağladığı İş Değeri
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm35z3ud-0zrw65-075"}
+- **Maksimum Güvenlik:** İnsan hatasına yer bırakmadan, verinin içeriğine göre otomatik zırh oluşturur.
+- **Yönetim Kolaylığı:** Yüzlerce belgeyi tek tek yetkilendirmek yerine, sistemin bu işlemi arka planda yapmasını sağlar.
+- **Süreç Esnekliği:** Farklı senaryoların tek bir arşiv tipi altında, karmaşaya yol açmadan yönetilmesine olanak tanır.
+- **Gizlilik Uyumu:** KVKK ve benzeri veri gizliliği yönetmeliklerine uyumu teknik seviyede destekler.
 
-### []{#birim-bazlı-belge-erişimi display="false"}1. Birim Bazlı Belge Erişimi {#birim-bazlı-belge-erişimi block-id="mm35z3ud-0w88fc-076"}
+## Kritik Teknik Notlar
 
-- Belge arşivlenirken "Birim" alanı doldurulur
+- **Kabinet Yapısı:** Bu özellik yalnızca **klasör yetkileri etkin olmayan** kabinetlerde çalışır. Klasör yetkisi aktifse, yetki yönetimi kabinet hiyerarşisi üzerinden yürütülür.
+- **Performans:** Koşul tanımları ne kadar sade ve mantıklı kurgulanırsa, sistem performansı o kadar optimize olur.
+- **Kalıcılık:** Yetkilendirme işlemi kayıt anında gerçekleştirilir; alan değerleri değiştiğinde yetkilerin güncellenmesi için sistem tetiklenmelidir.
 
-- Tanımlı koşula göre ilgili birime ait yetki seti uygulanır
+---
 
-- Belgeler yalnızca yetkili kullanıcılar tarafından görüntülenir
-
-### []{#gizlilik-seviyesine-göre-yetkilendirme display="false"}2. Gizlilik Seviyesine Göre Yetkilendirme {#gizlilik-seviyesine-göre-yetkilendirme block-id="mm35z3ud-ovy63n-081"}
-
-- Form üzerinde gizlilik seviyesi seçilir
-
-- Seçilen değere bağlı olarak farklı yetki setleri devreye alınır
-
-- Hassas belgeler sınırlı erişimle saklanır
-
-### []{#proje-bazlı-dosya-kartı-erişimi display="false"}3. Proje Bazlı Dosya Kartı Erişimi {#proje-bazlı-dosya-kartı-erişimi block-id="mm35z3ud-habk0r-086"}
-
-- Dosya kartı oluşturulurken proje bilgisi girilir
-
-- Projeye özel yetki seti otomatik atanır
-
-- Yetkisiz erişimler kayıt aşamasında engellenir
-
-## []{#senaryo-akış-özeti display="false"}Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm35z3ud-ams2ud-091"}
-
-- **Belge arşivleme:** Alan değerleri girilir → Koşullar değerlendirilir
-  → Yetki seti atanır
-
-- **Dosya kartı kaydı:** Tip alanları doldurulur → Dinamik yetkilendirme
-  uygulanır → Kayıt oluşturulur
-
-- **Erişim kontrolü:** Kullanıcı yalnızca yetkili olduğu kayıtları
-  görüntüler
-
-## []{#iş-değeri display="false"}İş Değeri {#iş-değeri block-id="mm35z3ud-lvkw9j-096"}
-
-- Dinamik ve esnek yetkilendirme yapısı sağlanır
-
-- Veri gizliliği ve erişim güvenliği artar
-
-- Manuel yetki yönetimi ihtiyacı azalır
-
-- Hatalı veya yetkisiz erişimler engellenir
-
-- Farklı senaryolar tek arşiv tipi altında yönetilebilir
-
-## []{#teknik-notlar display="false"}Teknik Notlar {#teknik-notlar block-id="mm35z3ue-6kyl3l-103"}
-
-- Koşula Bağlı Yetki yalnızca **klasör yetkileri etkin olmayan
-  kabinetlerde** kullanılabilir.
-
-- Klasör yetkileri etkin olan kabinetlerde tüm yetkiler kabinet
-  seviyesinden yönetilir.
+**İpucu:** Bu dökümanı "Filigran ile Belge Güvenliği" dökümanı ile birlikte inceleyerek, PaperWork'ün çok katmanlı güvenlik mimarisini tam olarak kavrayabilirsiniz.
