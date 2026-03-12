@@ -1,6 +1,6 @@
-## []{#qr-kod-barkod-okuyucu display="false"}QR Kod & Barkod Okuyucu {#qr-kod-barkod-okuyucu block-id="mm1rdjw7-prxcbv-068"}
+## QR Kod & Barkod Okuyucu 
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm1rdjw8-slh9i4-069"}
+## Genel Bakış 
 
 QR Kod ve Barkod Okuyucu, PaperWork form ve süreçlerinde fiziksel
 varlıklar ile dijital süreçler arasında hızlı ve hatasız bir köprü
@@ -12,7 +12,7 @@ Bu özellik özellikle üretim, depo ve saha operasyonlarında süreç
 başlatma süresini kısaltmak ve veri giriş hatalarını azaltmak amacıyla
 tercih edilir.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm1rdjw8-jhiyhm-072"}
+## Ne Zaman Kullanılır? 
 
 Aşağıdaki durumlarda QR Kod / Barkod Okuyucu kullanımı önerilir:
 
@@ -26,7 +26,7 @@ Aşağıdaki durumlarda QR Kod / Barkod Okuyucu kullanımı önerilir:
 
 - Saha veya üretim ortamında hızlı ve pratik veri girişi hedefleniyorsa
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm1rdjw8-0u0qby-079"}
+## Nasıl Çalışır? 
 
 QR Kod veya Barkod Okuyucu nesnesi, mobil cihaz kamerası üzerinden
 çalışır.
@@ -47,9 +47,9 @@ Temel çalışma adımları:
 Bu yapı sayesinde aynı QR kod, farklı iş senaryolarında ortak bir
 başlangıç noktası olarak kullanılabilir.
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm1rdjw8-ajhgd3-089"}
+## Kullanım Senaryoları 
 
-### []{#üretimde-bakım-bildirimi display="false"}1. Üretimde Bakım Bildirimi {#üretimde-bakım-bildirimi block-id="mm1rdjw8-bxm54t-090"}
+### 1. Üretimde Bakım Bildirimi 
 
 - Bakım teknisyeni makine üzerindeki QR kodu okutur
 
@@ -59,7 +59,7 @@ başlangıç noktası olarak kullanılabilir.
 
 - Bakım iş emri akışı başlatılır
 
-### []{#arıza-ve-döf-bildirimi display="false"}2. Arıza ve DÖF Bildirimi {#arıza-ve-döf-bildirimi block-id="mm1rdjw8-a61ea5-096"}
+### 2. Arıza ve DÖF Bildirimi 
 
 - Operatör QR kodu okutur
 
@@ -69,7 +69,7 @@ başlangıç noktası olarak kullanılabilir.
 
 - Düzeltici/Önleyici Faaliyet (DÖF) süreci otomatik olarak başlar
 
-### []{#sarf-malzeme-talebi display="false"}3. Sarf Malzeme Talebi {#sarf-malzeme-talebi block-id="mm1rdjw9-tuppgl-102"}
+### 3. Sarf Malzeme Talebi 
 
 - Makine QR kodu okutulur
 
@@ -79,7 +79,7 @@ başlangıç noktası olarak kullanılabilir.
 
 - Satın alma veya depo talep süreci başlatılır
 
-### []{#depo-giriş-çıkış-işlemleri display="false"}4. Depo Giriş / Çıkış İşlemleri {#depo-giriş-çıkış-işlemleri block-id="mm1rdjw9-l2yw25-108"}
+### 4. Depo Giriş / Çıkış İşlemleri 
 
 - Ürün barkodu okutulur
 
@@ -89,7 +89,7 @@ başlangıç noktası olarak kullanılabilir.
 
 - Gerekli durumlarda entegrasyon ile ERP sistemine aktarım yapılır
 
-## []{#sağladığı-faydalar display="false"}Sağladığı Faydalar {#sağladığı-faydalar block-id="mm1rdjw9-17ibjz-114"}
+## Sağladığı Faydalar 
 
 - Manuel veri girişi ihtiyacını azaltır
 
@@ -101,7 +101,7 @@ başlangıç noktası olarak kullanılabilir.
 
 - Aynı QR kod üzerinden farklı süreçlerin başlatılmasını mümkün kılar
 
-## Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm1rdjw9-94pjf9-121"}
+## Senaryo Akış Özeti 
 
 - **Bakım bildirimi:**\
   Teknisyen QR kodu tarar → Makine bilgileri otomatik gelir → *Periyodik
@@ -119,9 +119,9 @@ başlangıç noktası olarak kullanılabilir.
   Barkod taranır → Ürün bilgisi otomatik gelir → Giriş/çıkış kaydı
   yapılır → Gerekirse web servis ile ERP'ye aktarılır
 
-[]{#notlar display="false"}
+<div id="notlar" display="false"></div>
 
-## İş Değeri {#iş-değeri block-id="mm1rdjwa-m0po7v-132"}
+## İş Değeri 
 
 - Tek bir QR kod ile birden fazla sürecin başlatılması sağlanır
 
