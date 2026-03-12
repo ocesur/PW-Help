@@ -1,161 +1,71 @@
-[]{#X34443b711b1e4b00a0ff43c73c11a9c8ee05d2a display="false"}
+---
+title: "Yorumlar ve Sohbet Mimarisi"
+sidebarTitle: "KS-10 Yorumlar ile Birleşik İletişim Mimarisi"
+description: "PaperWork üzerinde belge, klasör ve iş akışı bağlamında yürütülen entegre sohbet ve bildirim yönetimi."
+keywords: "sohbet mimarisi, yorumlar, @mention, bahsetme, iş birliği, süreç içi iletişim, bildirim sistemi, anlık mesajlaşma"
+---
 
-## Yorumlar ile Birleşik İletişim Mimarisi {#yorumlar-ile-birleşik-iletişim-mimarisi block-id="mm3dnncu-jgh5ol-063"}
+## Genel Bakış
 
-[]{#amaç display="false"}
+PaperWork platformu; belge, klasör, dosya kartı ve iş akışları kapsamında yapılan tüm yorumları ve anlık mesajlaşmaları **Sohbet Mimarisi** altında yönetir. Bu yapı, kullanıcıların dökümanlardan kopmadan, doğrudan "işin mutfağında" izlenebilir ve bildirim destekli iletişim kurmasını sağlar.
 
-## Amaç {#amaç block-id="mm3dnncu-gp3e19-064"}
+## Sohbet Mimarisinin Kapsamı
 
-Bu kullanım senaryosunun amacı; PaperWork platformu üzerinde belge,
-klasör, dosya kartı ve iş akışları kapsamında yapılan yorumlar ile
-sohbetlerin tek ve bütünleşik bir iletişim mimarisi altında
-yönetilmesini açıklamaktır. Bu yapı sayesinde kullanıcılar bağlama
-bağlı, izlenebilir ve bildirim destekli bir iletişim deneyimi elde eder.
+Bu mimari, aşağıdaki bileşenlerin entegre çalışmasıyla döküman bazlı iletişimi sağlar:
 
-[]{#kapsam display="false"}
+- **Yorumlar Nesnesi:** Belgeler üzerindeki kalıcı ve tarihçeli geri bildirimler.
+- **Akıllı Bahsetmeler (@):** Kullanıcı odaklı etkileşim ve e-posta bildirimleri.
+- **Nesne Bazlı Sohbet Kanalları:** Dökümana veya klasöre özel anlık iletişim kanalları.
+- **İş Akışı Sohbetleri:** Süreç adımlarında teknik veya operasyonel destek kanalları.
 
-## Kapsam {#kapsam block-id="mm3dnncu-ka3e3u-066"}
+## 1. Yorumlar ve Etkileşim Yönetimi
 
-Bu senaryo aşağıdaki bileşenleri kapsar: - Belgeler ekranında Yorumlar
-nesnesi - Yorumlarda Bahsetmeler (@) kullanımı - Nesne bazlı Sohbet
-kanalları - İş akışlarında Sohbet kullanımı - Bildirim ve okunma takibi
+Belgeler ekranındaki **Yorumlar** nesnesi, döküman veya formlar üzerinde kalıcı bir iletişim tarihçesi oluşturur.
 
-[]{#ön-koşullar display="false"}
+- **Dinamik Düzenleme:** Kullanıcılar kendi yorumlarını ekleyebilir veya güncelleyebilir.
+- **Görsel Destek:** Emoji kullanımı ile geri bildirimler zenginleştirilebilir.
+- **Güvenli Silme:** Veri bütünlüğü için sadece eklenen **son yorum** silinebilir.
+- **@Bahsetmeler (@mention):** Bir kullanıcıdan bahsettiğinizde, sistem otomatik olarak e-posta ve uygulama içi bildirim göndererek ilgili kişiyi konuya dahil eder.
 
-## Ön Koşullar {#ön-koşullar block-id="mm3dnncu-mf72xw-068"}
+## 2. Sohbet Mimarisi ve Kanal Yönetimi
 
-- Kullanıcının ilgili belge, klasör, dosya kartı veya iş akışı üzerinde
-  **görme yetkisine** sahip olması gerekir.
+Sohbet özelliği, platform üzerinde e-posta trafiğini azaltan ve dökümanla eşleşen bir anlık mesajlaşma deneyimi sunar.
 
-- Sohbet ve yorum özellikleri sistem genelinde aktif olmalıdır.
+- **Anlık Güncelleme:** Yazışmalar tüm katılımcılarda eş zamanlı yenilenir.
+- **Çoklu Kanal:** Bir belge veya dosya kartı altında farklı konular için (Örn: "Finans Onayı", "Teknik Revizyon") ayrı kanallar açılabilir.
+- **Görsel Takip:** Mesajların kimler tarafından okunduğu "Görüldü" bilgisiyle takip edilebilir.
+- **Tam Metin Arama:** Sohbet Mimarisi içindeki tüm yazışmalar sistem genelindeki aramalara dahildir.
 
-[]{#kullanım-senaryosu-adımları display="false"}
+## 3. İş Akışlarında Sohbet Kullanımı
 
-## Kullanım Senaryosu Adımları {#kullanım-senaryosu-adımları block-id="mm3dnncu-65s5zl-072"}
+Süreç taslaklarında, işin doğasına göre iki farklı sohbet türü konumlandırılabilir:
 
-[]{#yorumlar-nesnesinin-kullanımı display="false"}
+1. **Süreç Destek:** İş mantığına ve operasyonel kararlara yönelik sohbetler.
+2. **Teknik Destek:** Sürecin mimari veya sistemsel konularına yönelik teknik yazışmalar.
 
-### 1. Yorumlar Nesnesinin Kullanımı {#yorumlar-nesnesinin-kullanımı block-id="mm3dnncu-c53y6f-073"}
+> **Yetki Notu:** Süreç tasarımında yer alan "Sohbet başlatabilir" seçeneği ile hangi adımda hangi kullanıcının iletişim başlatabileceği hassas bir şekilde kontrol edilir.
 
-Belgeler ekranında yer alan Yorumlar nesnesi; kullanıcıların belgeler,
-formlar veya kayıtlar üzerinde görüş, açıklama ve geri bildirim
-paylaşmasını sağlar.
+## 4. Bildirimler ve Okunma Takibi
 
-- Her kullanıcı kendi yorumunu ekleyebilir ve düzenleyebilir.
+Sohbet Mimarisi üzerindeki tüm trafik, sağ üst menüdeki merkezi **Bildirim İkonu** üzerinden yönetilir:
 
-- Yapılan yorumlar tarih bilgisi ile birlikte görüntülenir.
+- **Sayaç Desteği:** Okunmamış mesajlar anlık sayaç ile gösterilir.
+- **Akıllı Listeleme:** Listeden çıkarılan bir sohbet, yeni bir mesaj geldiğinde otomatik olarak tekrar bildirim listesinin üst sırasına taşınır.
+- **Bağlantılı Erişim:** Bildirime tıklandığında doğrudan ilgili dökümana veya sohbet kanalına yönlendirme yapılır.
 
-- Emoji kullanımı desteklenir.
+## Sağladığı İş Değeri
 
-- Yalnızca eklenen **son yorum** silinebilir.
+- **Bağlama Duyarlı İletişim:** İletişim dökümanla birleştiği için "hangi dosya hakkındaydı?" karmaşası biter.
+- **Kurumsal Hafıza:** Sohbet Mimarisi üzerinden yürütülen tüm yazışmalar arşivlenerek kurumsal bilginin korunmasını sağlar.
+- **Operasyonel Hız:** E-posta trafiğini azaltarak kararların daha hızlı alınmasına olanak tanır.
+- **İzlenebilirlik:** Kimin, ne zaman, hangi konuda onay veya görüş verdiği kayıt altına alınır.
 
-- Yorum eklendiğinde, bahsedilen kullanıcılara e-posta bildirimi
-  gönderilir.
+## Teknik Ön Koşullar
 
-[]{#yorumlarda-bahsetmeler-kullanımı display="false"}
+- **Yetki:** Kullanıcının nesne üzerinde en az **Görme Yetkisi** bulunmalıdır.
+- **Sistem Ayarı:** Sohbet ve yorum modülleri sistem yönetim panelinden aktif edilmiş olmalıdır.
+- **Entegrasyon:** Yorumlardaki bahsetmeler, sohbet bildirim ekranlarıyla tam uyumlu çalışır.
 
-### 2. Yorumlarda Bahsetmeler (@) Kullanımı {#yorumlarda-bahsetmeler-kullanımı block-id="mm3dnncv-fr93yt-081"}
+---
 
-Yorumlar nesnesi içerisinde, sistemde tanımlı kullanıcılar @ işareti
-kullanılarak yoruma dahil edilebilir.
-
-- Bahsedilen kullanıcıya bildirim iletilir.
-
-- Bildirimler, Sohbet mimarisi kapsamında da görüntülenir.
-
-- Bahsetmeler sekmesi üzerinden ilgili belgeye yapılan tüm yorumlar
-  listelenebilir.
-
-[]{#sohbet-özelliği display="false"}
-
-### 3. Sohbet Özelliği {#sohbet-özelliği block-id="mm3dnncv-ev1zlj-087"}
-
-Sohbet; kullanıcıların platform üzerinde anlık iletişim kurmasını
-sağlayan bir özelliktir.
-
-[]{#sohbetin-genel-özellikleri display="false"}
-
-#### Sohbetin Genel Özellikleri {#sohbetin-genel-özellikleri block-id="mm3dnncv-pbhox9-089"}
-
-- Aynı sohbet kanalında yapılan yazışmalar anlık olarak güncellenir.
-
-- Bir nesneye bağlı birden fazla sohbet kanalı oluşturulabilir.
-
-- Sohbet başlatmak için nesne üzerinde görme yetkisi yeterlidir.
-
-Sohbet kanalları aşağıdaki nesnelere bağlanabilir: - Belge - Klasör -
-Dosya Kartı Kaydı - İş Akışı
-
-[]{#nesne-bazlı-sohbet-kanalı-oluşturma display="false"}
-
-### 4. Nesne Bazlı Sohbet Kanalı Oluşturma {#nesne-bazlı-sohbet-kanalı-oluşturma block-id="mm3dnncv-77h4ld-095"}
-
-Belge, klasör veya dosya kartı özellik ekranında yer alan sohbet ikonu
-üzerinden:
-
-- Mevcut sohbet kanalları görüntülenir.
-
-- Yeni sohbet kanalı oluşturulabilir.
-
-Yeni sohbet kanalı oluşturma adımları: 1. Ekle butonuna tıklanır. 2.
-Sohbet konusu girilir. 3. Kullanıcı ekleme ekranında, ilgili nesne
-üzerinde görme yetkisi olan kullanıcılar listelenir. 4. Seçimler
-tamamlandıktan sonra sohbet kanalı oluşturulur.
-
-[]{#sohbet-kanalı-kullanımı display="false"}
-
-### 5. Sohbet Kanalı Kullanımı {#sohbet-kanalı-kullanımı block-id="mm3dnncv-82g3ge-101"}
-
-- Gönderilen mesajların kimler tarafından okunduğu görüntülenebilir.
-
-- Sohbete yeni kullanıcı eklenebilir.
-
-- Sohbet ekranı tam ekran yapılabilir.
-
-- Tüm yazışmalar tam metin aramaya dahildir.
-
-[]{#iş-akışlarında-sohbet-kullanımı display="false"}
-
-### 6. İş Akışlarında Sohbet Kullanımı {#iş-akışlarında-sohbet-kullanımı block-id="mm3dnncv-dt0ucl-107"}
-
-İş akışı taslaklarında Sohbet sekmesi bulunmaktadır.
-
-Bu sekmede: - Süreç Destek: İş mantığına yönelik sohbetler - Teknik
-Destek: Teknik ve mimari konular
-
-Manuel aktivite tanımlarında yer alan "Sohbet başlatabilir" seçeneği
-ile, ilgili iş adımında sohbet sekmesinin görünürlüğü kontrol edilir.
-
-[]{#bildirimler-ve-okunma-takibi display="false"}
-
-### 7. Bildirimler ve Okunma Takibi {#bildirimler-ve-okunma-takibi block-id="mm3dnncv-cxrfuy-111"}
-
-- Sağ üst menüde bulunan bildirim ikonu her zaman aktiftir.
-
-- Okunmamış mesajlar sayaç ile gösterilir.
-
-- Listeden çıkarılan sohbetler, nesne üzerinden her zaman erişilebilir.
-
-- Yeni mesaj gelmesi durumunda sohbet tekrar bildirim listesinde
-  görünür.
-
-[]{#yorumlar-ve-sohbetin-birleşik-yapısı display="false"}
-
-### 8. Yorumlar ve Sohbetin Birleşik Yapısı {#yorumlar-ve-sohbetin-birleşik-yapısı block-id="mm3dnncw-8yjpas-117"}
-
-Yorumlar ve sohbet özellikleri entegre çalışır:
-
-- Yorumlarda yapılan bahsetmeler, sohbet bildirim ekranlarında
-  görüntülenir.
-
-- Böylece belgeye bağlı kalıcı yorumlar ile anlık sohbetler tek bir
-  iletişim mimarisi altında yönetilir.
-
-[]{#sonuç display="false"}
-
-## Sonuç {#sonuç block-id="mm3dnncw-y7wsnm-122"}
-
-KS-10 kullanım senaryosu ile PaperWork platformunda; - Bağlama duyarlı -
-İzlenebilir - Bildirim destekli
-
-birleşik bir iletişim ve iş birliği altyapısı sağlanır.
+**İpucu:** Uzun sözleşme incelemelerinde "AI Belge Özetleme" ile dökümanı analiz edip, kritik bulgularınızı Sohbet Mimarisi içindeki kanallarda paylaşarak süreci hızlandırabilirsiniz.
