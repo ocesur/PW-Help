@@ -1,106 +1,58 @@
-# []{#X14afb8f3e49557973e30eef4ee8979c17adb8dc display="false"}Finansal Formlarda IBAN ve TCKN Doğrulaması {#finansal-formlarda-iban-ve-tckn-doğrulaması block-id="mm1ux8kz-ezv6g8-838"}
+---
+title: "Finansal Formlarda IBAN ve TCKN Doğrulaması"
+sidebarTitle: "KS-03 IBAN ve TCKN Doğrulaması"
+description: "Finansal süreçlerde hatalı veri girişlerini engelleyen algoritma bazlı doğrulama kontrolleri."
+keywords: "iban doğrulaması, tckn kontrolü, tc kimlik no, finansal formlar, ödeme güvenliği, veri doğrulama, bordro, masraf yönetimi"
+---
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm1ux8kz-lnw0zi-839"}
+## Genel Bakış
 
-Finansal formlarda yer alan IBAN ve T.C. Kimlik Numarası (TCKN)
-alanlarının doğrulanması, hatalı veri girişlerinin önüne geçilmesi ve
-finansal süreçlerin güvenilir şekilde yürütülmesi açısından kritik öneme
-sahiptir.
+Finansal formlarda yer alan IBAN ve T.C. Kimlik Numarası (TCKN) alanlarının doğrulanması, hatalı veri girişlerinin önüne geçilmesi ve finansal süreçlerin güvenilir şekilde yürütülmesi açısından kritik öneme sahiptir.
 
-PaperWork platformu, IBAN ve TCKN doğrulama kontrolleri sayesinde
-kullanıcı tarafından girilen bilgilerin format ve algoritma bazlı olarak
-kontrol edilmesini sağlar. Bu sayede ödeme, bordro, masraf ve tedarikçi
-süreçlerinde yanlış veya eksik bilgiye bağlı operasyonel riskler
-azaltılır.
+PaperWork platformu, IBAN ve TCKN doğrulama kontrolleri sayesinde kullanıcı tarafından girilen bilgilerin format ve algoritma bazlı olarak kontrol edilmesini sağlar. Bu sayede ödeme, bordro, masraf ve tedarikçi süreçlerinde yanlış veya eksik bilgiye bağlı operasyonel riskler azaltılır.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm1ux8kz-13i791-842"}
+## Ne Zaman Kullanılmalıdır?
 
 Aşağıdaki durumlarda IBAN ve TCKN doğrulama kullanımı önerilir:
 
-- Ödeme, masraf, avans veya bordro formlarında
+- **Finansal Formlar:** Ödeme, masraf, avans veya bordro formlarında.
+- **Kayıt Süreçleri:** Tedarikçi, çalışan veya müşteri bilgisi girilen tüm finansal süreçlerde.
+- **Hata Önleme:** Manuel veri girişine bağlı hata riskinin minimize edilmek istendiği durumlarda.
+- **Uyum (Compliance):** Finansal süreçlerde mevzuata ve standartlara tam uyum hedefleniyorsa.
 
-- Tedarikçi, çalışan veya müşteri bilgisi girilen finansal süreçlerde
+## Çalışma Mekanizması
 
-- Manuel veri girişine bağlı hata riskinin azaltılmak istendiği
-  durumlarda
+IBAN ve TCKN doğrulama kontrolleri, form alanlarına tanımlanan kurallar ve arka planda çalışan algoritmalar aracılığıyla işler.
 
-- Finansal süreçlerde mevzuata ve standartlara uyum hedefleniyorsa
+**İşleyiş Adımları:**
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm1ux8kz-vfu1fn-849"}
+1. Kullanıcı finansal form üzerindeki ilgili alanı doldurur.
+2. Girilen değer, tanımlı doğrulama algoritmaları (Mod 11 vb.) ile otomatik olarak kontrol edilir.
+3. **Anlık Geri Bildirim:** Hatalı veya geçersiz girişlerde kullanıcı sistem tarafından anlık olarak uyarılır.
+4. **Süreç Güvenliği:** Doğrulama başarılı olmadan sürecin bir sonraki adıma ilerlemesine izin verilmez.
 
-IBAN ve TCKN doğrulama kontrolleri, form alanlarına tanımlanan kurallar
-aracılığıyla çalışır.
+## Örnek Kullanım Senaryoları
 
-Temel çalışma adımları:
+### 1. Masraf ve Avans Talepleri
 
-1.  Kullanıcı finansal formu doldurur
+Kullanıcı IBAN bilgisini forma girdiğinde sistem formatı ve kontrol basamaklarını doğrular. Doğru bilgi girilmeden talep onay aşamasına geçemez.
 
-2.  IBAN ve/veya TCKN alanına veri girişi yapılır
+### 2. Bordro ve Çalışan Ödeme Süreçleri
 
-3.  Girilen değer, tanımlı doğrulama algoritmaları ile otomatik olarak
-    kontrol edilir
+Çalışana ait TCKN ve IBAN bilgileri, kimlik ve hesap doğrulama kurallarından geçirilerek ödemelerin doğru kişiye yapılması garanti altına alınır.
 
-4.  Hatalı veya geçersiz girişlerde kullanıcı anlık olarak
-    bilgilendirilir
+### 3. Tedarikçi Kayıt Süreçleri
 
-5.  Doğrulama başarılıysa süreç bir sonraki adıma ilerler
+Tedarikçi bilgileri sisteme tanımlanırken yanlış veya eksik veriler daha yolun başında engellenir; muhasebe ekiplerinin manuel kontrol yükü azalır.
 
-Bu kontroller hem kullanıcı deneyimini iyileştirir hem de arka planda
-finans ekiplerinin ek kontrol yükünü azaltır.
+## Sağladığı İş Değeri
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm1ux8kz-mzerk9-859"}
+- **Hata Önleme:** Hatalı girişlerden kaynaklanan ödeme iadeleri ve banka sorunları önlenir.
+- **Verimlilik:** Finans ve muhasebe ekiplerinin manuel düzeltme yükü azalır.
+- **Güvenilirlik:** Finansal süreçlerdeki veri doğruluğu ve operasyonel şeffaflık artar.
+- **Kullanıcı Deneyimi:** Kullanıcılar hatalı giriş yaptıklarında anlık olarak doğru veriye yönlendirilir.
 
-### []{#masraf-ve-avans-talepleri display="false"}1. Masraf ve Avans Talepleri {#masraf-ve-avans-talepleri block-id="mm1ux8kz-8qmv4k-860"}
+## Önemli Notlar
 
-- Kullanıcı IBAN bilgisini forma girer
-
-- Sistem IBAN formatını ve kontrol basamaklarını doğrular
-
-- Hatalı girişlerde kullanıcı uyarılır, doğru bilgi girilmeden süreç
-  ilerlemez
-
-### []{#bordro-ve-çalışan-ödeme-süreçleri display="false"}2. Bordro ve Çalışan Ödeme Süreçleri {#bordro-ve-çalışan-ödeme-süreçleri block-id="mm1ux8l0-ftvg60-865"}
-
-- Çalışana ait TCKN ve IBAN bilgileri forma girilir
-
-- Kimlik ve hesap bilgileri doğrulama kurallarından geçirilir
-
-- Ödeme süreci doğru verilerle güvenli şekilde yürütülür
-
-### []{#tedarikçi-bilgi-ve-ödeme-süreçleri display="false"}3. Tedarikçi Bilgi ve Ödeme Süreçleri {#tedarikçi-bilgi-ve-ödeme-süreçleri block-id="mm1ux8l0-6ay63u-870"}
-
-- Tedarikçi IBAN ve kimlik bilgileri sisteme tanımlanır
-
-- Yanlış veya eksik bilgiler süreç başında engellenir
-
-- Muhasebe ve finans ekiplerinin manuel kontrol ihtiyacı azalır
-
-## []{#senaryo-akış-özeti display="false"}Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm1ux8l0-z43sit-875"}
-
-- **Masraf talebi:** IBAN girilir → Otomatik doğrulama yapılır → Süreç
-  devam eder
-
-- **Bordro süreci:** TCKN ve IBAN girilir → Geçerlilik kontrolü sağlanır
-  → Ödeme adımı ilerler
-
-- **Tedarikçi tanımı:** Kimlik ve hesap bilgileri doğrulanır → Finansal
-  kayıt oluşturulur
-
-## []{#iş-değeri display="false"}İş Değeri {#iş-değeri block-id="mm1ux8l0-phl1ia-880"}
-
-- Hatalı IBAN ve TCKN girişlerinden kaynaklanan ödeme sorunları önlenir
-
-- Finansal süreçlerde güvenilirlik ve doğruluk artar
-
-- Manuel kontrol ve düzeltme yükü azalır
-
-- Kullanıcılar doğru veri girişi konusunda yönlendirilir
-
-- Finans ve muhasebe ekiplerinin operasyonel verimliliği yükselir
-
-## []{#notlar display="false"}Notlar {#notlar block-id="mm1ux8l0-6jywbv-887"}
-
-- IBAN ve TCKN doğrulama kontrolleri algoritma bazlı çalışır.
-
-- Hatalı veri girişi süreç ilerlemeden engellenir ve kullanıcı
-  bilgilendirilir.
+- **Algoritma Bazlı Kontrol:** Bu özellik sadece format kontrolü yapmaz, girilen numaranın matematiksel algoritmasını (check-digit) denetler.
+- **Blokaj Yeteneği:** Hatalı veri girişi yapıldığında süreç adımı durdurulur ve kullanıcı bilgilendirilir.
