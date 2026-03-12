@@ -1,110 +1,61 @@
-## []{#X843b1ed6cddccdc3cacd7a02b3ded4a641ea28b display="false"}Lokasyon (Harita) Nesnesi ile Saha ve Konum Bazlı Süreçler {#lokasyon-harita-nesnesi-ile-saha-ve-konum-bazlı-süreçler block-id="mm32yncg-tugfxg-057"}
+---
+title: "Lokasyon (Harita) Nesnesi ile Saha ve Konum Bazlı Süreçler"
+sidebarTitle: "KS-05 Lokasyon ve Harita"
+description: "Saha operasyonlarında Google Haritalar entegrasyonu ile coğrafi konum verisi toplama rehberi."
+keywords: "harita nesnesi, google maps api, konum seçme, saha operasyonu, lokasyon bazlı bildirim, gps, adres doğrulama"
+---
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm32yncg-38uy63-058"}
+## Genel Bakış
 
-Lokasyon (Harita) nesnesi, formlar üzerinde coğrafi konum bilgisinin
-harita üzerinden seçilmesini sağlar. Kullanıcılar, Google Haritalar
-üzerinden arama yaparak veya harita üzerindeki imleci hareket ettirerek
-ilgili konumu belirleyebilir.
+Lokasyon (Harita) nesnesi, PaperWork formları üzerinde coğrafi konum bilgisinin interaktif bir harita üzerinden seçilmesini sağlar. Kullanıcılar, Google Haritalar altyapısı üzerinden arama yaparak veya harita üzerindeki imleci manuel olarak hareket ettirerek ilgili konumu belirleyebilir.
 
-Bu nesne, özellikle saha, denetim, bakım, keşif ve lokasyon bazlı
-bildirim gerektiren süreçlerde adres ve konum bilgilerinin doğru ve
-standart şekilde toplanması amacıyla kullanılır.
+Bu nesne; saha denetimi, teknik servis bakımı, keşif süreçleri ve lokasyon bazlı arıza bildirimleri gibi senaryolarda adres bilgilerinin standart ve hatasız toplanması amacıyla kullanılır.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm32ynch-y9uec5-061"}
+## Ne Zaman Kullanılmalıdır?
 
 Aşağıdaki durumlarda Lokasyon (Harita) nesnesinin kullanımı önerilir:
 
-- Saha operasyonları ve dış lokasyonlu çalışmalar yürütülüyorsa
+- **Saha Operasyonları:** Dış lokasyonlu çalışmaların koordinasyonu gerektiğinde.
+- **Adres Doğrulama:** Konum bilgisinin manuel yazım hatalarından arındırılıp harita üzerinden kesinleştirilmesi istendiğinde.
+- **Denetim ve Keşif:** Belirli bir noktanın coğrafi koordinatlarıyla kayıt altına alınması gereken süreçlerde.
+- **Görsel İzleme:** Harita destekli raporlama ve saha takibi hedeflendiğinde.
 
-- Adres bilgisinin harita üzerinden doğrulanması gerekiyorsa
+## Teknik Çalışma Mekanizması
 
-- Konum bilgisinin manuel yazım yerine seçilerek alınması isteniyorsa
+Lokasyon nesnesi, Google Haritalar servislerini kullanarak çalışır ve form tasarımı aşamasında yapılandırılır.
 
-- Denetim, bakım, keşif veya arıza bildirim süreçleri lokasyon bazlı
-  yürütülüyorsa
+**Kurulum ve İşleyiş Adımları:**
 
-- Harita destekli raporlama ve izleme hedefleniyorsa
+1. **Veri Bağlantısı:** Lokasyon nesnesi, "Yazı" veri tipindeki bir tip alanına (database field) bağlanır.
+2. **Google Cloud Yapılandırması:** Google Cloud Console üzerinden gerekli **API Anahtarı (API Key)** ve **Map ID** bilgileri temin edilir.
+3. **Entegrasyon:** Alınan API Key ve Map ID, PaperWork form nesnesi özelliklerine girilir.
+4. **Veri Girişi:** Kullanıcı form üzerinde harita aracılığıyla konum seçimini yapar; seçilen koordinatlar sistemde saklanır.
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm32ynch-o2yjg5-069"}
+## Örnek Kullanım Senaryoları
 
-Lokasyon (Harita) nesnesi, Google Haritalar altyapısını kullanarak
-çalışır ve form tasarımı sırasında yapılandırılır.
+### 1. Saha Arıza ve Bakım Bildirimleri
 
-Temel çalışma adımları:
+Teknik personel, arıza veya bakım yapılacak noktayı harita üzerinden seçer. Bu sayede saha ekibi, açıklama satırlarına ihtiyaç duymadan doğrudan doğru konuma yönlendirilir.
 
-1.  Lokasyon nesnesi, "Yazı" veri tipindeki bir tip alanına bağlanır
+### 2. Denetim ve Keşif Süreçleri
 
-2.  Google Haritalar için gerekli API Anahtarı ve Map ID bilgileri temin
-    edilir
+Keşif yapılan alan harita üzerinde işaretlenir. Denetim raporları bu lokasyon verisiyle ilişkilendirilerek geçmişe dönük coğrafi analiz yapılmasına olanak tanır.
 
-3.  API Anahtarı ve Google Map ID, nesne özellikleri alanına girilir
+### 3. İSG ve Uygunsuzluk Bildirimleri
 
-4.  Kullanıcı form üzerinde harita aracılığıyla konum seçimini yapar
+Fabrika veya saha içerisinde tespit edilen riskli noktalar işaretlenir. İSG uzmanları, harita üzerindeki yoğunlaşmaya göre riskli bölgeleri daha net analiz edebilir.
 
-5.  Seçilen konum bilgisi form kaydı ile birlikte saklanır
+## Sağladığı İş Değeri
 
-Bu yapı sayesinde konum bilgileri standart, doğrulanabilir ve görsel
-olarak seçilmiş şekilde toplanır.
+- **Hata Payının Azalması:** Adres ve konum bilgilerindeki yazım/yorum hataları tamamen ortadan kalkar.
+- **Hızlı Müdahale:** Saha süreçlerinde doğru lokasyona en kısa sürede erişim sağlanır.
+- **Gelişmiş Raporlama:** Bildirimler coğrafi verilerle zenginleştirilerek harita bazlı dashboard'lara veri sağlar.
+- **Şeffaflık:** Saha ekipleri ve merkez arasındaki bilgi akışı somut konumlara dayandırılır.
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm32ynch-9v9c2n-079"}
+## Kritik Teknik Notlar
 
-### []{#saha-arıza-ve-bakım-bildirimleri display="false"}1. Saha Arıza ve Bakım Bildirimleri {#saha-arıza-ve-bakım-bildirimleri block-id="mm32ynci-d8vrw2-080"}
+- **API Gereksinimi:** Google Cloud Map API ücretli bir servistir ve kullanım bazlı faturalandırılır. API anahtarı olmadan harita yüklenmeyecektir.
+- **Güvenlik (CSP):** `Web.config` dosyasındaki _Content Security Policy_ ayarlarında Google domainlerine gerekli izinlerin verilmiş olması şarttır.
+- **Veri Tipi:** Nesne sadece "Yazı" veri tipindeki alanlarla tam uyumlu çalışır.
 
-- Kullanıcı arıza veya bakım yapılacak noktayı harita üzerinden seçer
-
-- Konum bilgisi form kaydına eklenir
-
-- İlgili saha süreci doğru lokasyon bilgisi ile başlatılır
-
-### []{#denetim-ve-keşif-süreçleri display="false"}2. Denetim ve Keşif Süreçleri {#denetim-ve-keşif-süreçleri block-id="mm32ynci-nwoch3-085"}
-
-- Denetim veya keşif yapılan alan harita üzerinden işaretlenir
-
-- Konum bilgisi kayıt altına alınır
-
-- Denetim raporları lokasyon bilgisi ile birlikte ilerler
-
-### []{#isg-ve-uygunsuzluk-bildirimleri display="false"}3. İSG ve Uygunsuzluk Bildirimleri {#isg-ve-uygunsuzluk-bildirimleri block-id="mm32ynci-2sa8ev-090"}
-
-- Riskli alan veya uygunsuzluk tespit edilen nokta harita üzerinden
-  seçilir
-
-- Bildirim süreci konum bilgisi ile tetiklenir
-
-- Sahaya yönelik aksiyonlar doğru lokasyonla planlanır
-
-## []{#senaryo-akış-özeti display="false"}Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm32ynci-nfs824-095"}
-
-- **Saha bildirimi:** Lokasyon seçilir → Form kaydedilir → Süreç
-  başlatılır
-
-- **Denetim süreci:** Konum harita üzerinden belirlenir → Kayıt
-  oluşturulur → İnceleme yapılır
-
-- **İSG bildirimi:** Riskli nokta işaretlenir → Bildirim gönderilir →
-  Aksiyon alınır
-
-## []{#iş-değeri display="false"}İş Değeri {#iş-değeri block-id="mm32ynci-vhtpes-100"}
-
-- Konum bilgilerinde yazım ve yorum hataları azalır
-
-- Saha süreçlerinde doğru lokasyona hızlı erişim sağlanır
-
-- Bildirim ve raporlar coğrafi konum ile ilişkilendirilir
-
-- Operasyonel süreçlerde izlenebilirlik artar
-
-- Saha ekipleri ve merkez arasında doğru bilgi akışı sağlanır
-
-## []{#teknik-notlar display="false"}Teknik Notlar {#teknik-notlar block-id="mm32ynci-ks2qnn-107"}
-
-- Lokasyon nesnesi "Yazı" veri tipindeki alanlara bağlanabilir.
-
-- Google Haritalar API Anahtarı ve Map ID alınması gerekmektedir.
-
-- Web.config dosyasında Content Security Policy ayarlarında gerekli
-  domainler tanımlı olmalıdır.
-
-- Google Cloud Map API ücretli bir hizmettir ve kullanım bazlı
-  faturalandırılır.
+> **İpucu:** Bu nesneyi "Fotoğraf/Video Kaydı" nesnesiyle birlikte kullanarak saha bildirimlerini hem görsel hem de coğrafi olarak kanıtlanabilir hale getirebilirsiniz.
