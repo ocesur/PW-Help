@@ -12,6 +12,7 @@
         "anchors": [
           {
             "anchor": "PaperWork BPM & ECM",
+            "icon": "bullseye-arrow",
             "color": {
               "light": "#0d65f6",
               "dark": "#0d65f6"
