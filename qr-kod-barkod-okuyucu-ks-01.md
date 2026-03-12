@@ -1,94 +1,63 @@
 ---
-title: "KS-01 QR Kod Barkod Okuyucu"
+title: "QR Kod ve Barkod Okuyucu ile Akıllı Saha Operasyonları"
+sidebarTitle: "KS-01 QR Kod & Barkod Okuyucu"
+description: "Fiziksel varlıklar ile dijital süreçleri birbirine bağlayan, mobil cihaz tabanlı veri girişi ve süreç başlatma rehberi."
+keywords: "qr kod, barkod okuyucu, mobil süreç, saha operasyonu, makine bakım, döküman tetikleme, envanter yönetimi"
 ---
-
-## QR Kod & Barkod Okuyucu
 
 ## Genel Bakış
 
-QR Kod ve Barkod Okuyucu, PaperWork form ve süreçlerinde fiziksel varlıklar ile dijital süreçler arasında hızlı ve hatasız bir köprü kurmak için kullanılır. Bu nesne sayesinde kullanıcılar; makine, ekipman, ürün veya lokasyon bazlı süreçleri manuel veri girişi yapmadan başlatabilir.
+**QR Kod ve Barkod Okuyucu**, PaperWork form ve süreçlerinde fiziksel varlıklar (makine, ekipman, ürün, lokasyon) ile dijital iş akışları arasında hızlı, hatasız ve mobil odaklı bir köprü kurar. Bu nesne sayesinde kullanıcılar, karmaşık seri numaraları veya makine kodlarını manuel girmek yerine, cihaz kamerasını kullanarak saniyeler içinde doğru süreci başlatabilir.
 
-Bu özellik özellikle üretim, depo ve saha operasyonlarında süreç başlatma süresini kısaltmak ve veri giriş hatalarını azaltmak amacıyla tercih edilir.
+Özellikle üretim tesisleri, depolar ve saha operasyonlarında manuel veri girişinden kaynaklanan hataları sıfıra indirmek ve operasyonel hızı artırmak amacıyla kullanılır.
 
-## Ne Zaman Kullanılır?
+## Ne Zaman Kullanılmalıdır?
 
-Aşağıdaki durumlarda QR Kod / Barkod Okuyucu kullanımı önerilir:
+Aşağıdaki senaryolarda QR/Barkod entegrasyonu yüksek verimlilik sağlar:
 
-- Fiziksel bir varlık (makine, ekipman, ürün) ile ilişkili süreçler varsa
-- Süreç başlangıcında seri numarası, makine kodu veya ürün bilgisi manuel giriliyorsa
-- Aynı varlık üzerinden birden fazla sürecin başlatılması gerekiyorsa
-- Saha veya üretim ortamında hızlı ve pratik veri girişi hedefleniyorsa
+- **Varlık Bazlı Süreçler:** Belirli bir makine veya ekipmanla ilişkili bakım, arıza veya denetim süreçleri yürütülüyorsa.
+- **Hızlı Veri Girişi:** Seri numarası, IMEI, ürün kodu gibi manuel yazımı zor ve hataya açık verilerin okunması gerekiyorsa.
+- **Çoklu Süreç Tetikleme:** Aynı varlık (QR kod) üzerinden farklı kullanıcıların farklı süreçler (Bakım, Arıza, Talep vb.) başlatması hedefleniyorsa.
+- **Saha ve Depo Yönetimi:** Klavye kullanımının zor olduğu üretim veya depo ortamlarında pratik giriş yöntemleri aranıyorsa.
 
-## Nasıl Çalışır?
+## Çalışma Mekanizması
 
-QR Kod veya Barkod Okuyucu nesnesi, mobil cihaz kamerası üzerinden çalışır.
+QR Kod ve Barkod Okuyucu nesnesi, PaperWork mobil uygulaması üzerinden cihaz kamerasını tetikleyerek çalışır.
 
-Temel çalışma adımları:
+**İşleyiş Adımları:**
 
-1. Kullanıcı formu veya kısa yolu açar
-2. QR Kod / Barkod Okuyucu nesnesi ile kod taranır
-3. Kod ile ilişkili kayıt (makine, ürün, ekipman vb.) otomatik olarak bulunur
-4. İlgili alanlar otomatik doldurulur
-5. Kullanıcı seçimine göre süreç başlatılır
+1. **Tarama:** Kullanıcı form üzerindeki okuyucu nesnesine dokunarak kodu taratır.
+2. **Eşleştirme:** Okunan kod, sistemdeki ilgili kayıtla (Makine kartı, Ürün kartı vb.) otomatik olarak eşleştirilir.
+3. **Veri Entegrasyonu:** Kodla ilişkili tüm bilgiler (Marka, model, garanti durumu vb.) form alanlarına otomatik dolar.
+4. **Süreç Başlatma:** Kullanıcı, o varlık için tanımlanmış uygun iş akışını seçerek süreci başlatır.
 
-Bu yapı sayesinde aynı QR kod, farklı iş senaryolarında ortak bir başlangıç noktası olarak kullanılabilir.
+## Örnek Kullanım Senaryoları
 
-## Kullanım Senaryoları
+### 1. Üretimde Akıllı Bakım Bildirimi
 
-### 1. Üretimde Bakım Bildirimi
+Bakım teknisyeni makine üzerindeki QR kodu okutur. Makine bilgileri otomatik gelir. Teknisyen "Periyodik Bakım" seçeneğini işaretlediğinde, ilgili iş emri akışı o makineye özel parametrelerle başlatılır.
 
-- Bakım teknisyeni makine üzerindeki QR kodu okutur
-- Makine bilgileri otomatik olarak forma gelir
-- Kullanıcı "Periyodik Bakım" sürecini seçer
-- Bakım iş emri akışı başlatılır
+### 2. Anlık Arıza ve DÖF Bildirimi
 
-### 2. Arıza ve DÖF Bildirimi
+Operatör, arızalanan ekipmanın QR kodunu taratır. Arıza fotoğrafını ve sesli notunu ekleyerek "Arıza Bildir" butonuna basar. Düzeltici Önleyici Faaliyet (DÖF) süreci konum bilgisiyle birlikte anında ilgili birime düşer.
 
-- Operatör QR kodu okutur
-- "Arıza Bildir" seçeneğini işaretler
-- Arıza fotoğrafı ve açıklaması eklenir
-- Düzeltici/Önleyici Faaliyet (DÖF) süreci otomatik olarak başlar
+### 3. Dinamik Sarf Malzeme Talebi
 
-### 3. Sarf Malzeme Talebi
+Makine üzerindeki kod okutulduğunda, sadece o makineye uygun sarf malzemeler listelenir. Yanlış parça talep etme riski ortadan kalkarak satın alma veya depo çıkış süreci doğru verilerle başlar.
 
-- Makine QR kodu okutulur
-- Makineye tanımlı sarf malzemeler listelenir
-- Kullanıcı talep edilecek malzemeyi seçer
-- Satın alma veya depo talep süreci başlatılır
+## Sağladığı İş Değeri
 
-### 4. Depo Giriş / Çıkış İşlemleri
+- **Sıfır Hata:** Yanlış makine veya ürün seçimine bağlı operasyonel hatalar engellenir.
+- **Maksimum Hız:** Manuel giriş süreleri ortadan kalkar, sahada form doldurma süresi %90 oranında kısalır.
+- **Tek Merkezden Çoklu Süreç:** Tek bir fiziksel QR kod, yetkilere göre onlarca farklı sürecin (Bakım, Envanter, Arıza, Denetim) giriş kapısı haline gelir.
+- **İzlenebilirlik:** Fiziksel varlık ile dijital kayıt arasındaki ilişki kopmaz bir bağla kurulur; hangi makineye ne zaman müdahale edildiği netleşir.
 
-- Ürün barkodu okutulur
-- Ürün bilgileri otomatik olarak forma gelir
-- Giriş veya çıkış işlemi kaydedilir
-- Gerekli durumlarda entegrasyon ile ERP sistemine aktarım yapılır
+## Teknik Notlar
 
-## Sağladığı Faydalar
+- **Donanım:** Bu özellik mobil cihazların (iOS/Android) kamera donanımını kullanır.
+- **Format Desteği:** Piyasada yaygın olarak kullanılan tüm QR ve Barkod standartları (EAN, Code 128, QR vb.) desteklenir.
+- **Çevrimdışı Çalışma:** Tarama sonrası veri çekme işlemi için internet bağlantısı gereklidir (Entegrasyonun çalışması adına).
 
-- Manuel veri girişi ihtiyacını azaltır
-- Yanlış makine veya ürün seçimi riskini düşürür
-- Fiziksel varlık ile süreç arasındaki ilişkiyi otomatik kurar
-- Saha ve üretim ortamlarında kullanıcı deneyimini iyileştirir
-- Aynı QR kod üzerinden farklı süreçlerin başlatılmasını mümkün kılar
+---
 
-## Senaryo Akış Özeti
-
-- **Bakım bildirimi:**\
-  Teknisyen QR kodu tarar → Makine bilgileri otomatik gelir → _Periyodik
-  Bakım_ seçilir → İş emri akışı başlatılır
-- **Arıza / DÖF bildirimi:**\
-  Operatör QR tarar → _Arıza Bildir_ seçilir → Fotoğraf ve açıklama eklenir → DÖF akışı otomatik tetiklenir
-- **Sarf malzeme talebi:**\
-  QR taranır → Makineye bağlı sarf malzemeler listelenir → Seçim yapılır → Satın alma / depo talebi başlatılır
-- **Depo giriş / çıkış:**\
-  Barkod taranır → Ürün bilgisi otomatik gelir → Giriş/çıkış kaydı yapılır → Gerekirse web servis ile ERP'ye aktarılır
-
-<div id="notlar" display="false" />
-
-## İş Değeri
-
-- Tek bir QR kod ile birden fazla sürecin başlatılması sağlanır
-- Manuel veri girişine bağlı hatalar önemli ölçüde azaltılır
-- Makine--süreç ilişkisi otomatik olarak kurulur
-- Saha ve üretim ortamlarında süreç başlatma süreleri kısalır
-- Fiziksel operasyonlar izlenebilir ve raporlanabilir hale gelir
+**İpucu:** QR kod okutulduktan sonra "Lokasyon (Harita) Nesnesi" ile kullanıcının gerçekten o makinenin başında olup olmadığını doğrulayabilir, saha denetimlerinizi %100 güvenli hale getirebilirsiniz.
