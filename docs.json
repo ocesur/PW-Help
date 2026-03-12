@@ -34,6 +34,7 @@
       },
       {
         "tab": "PWQMS",
+        "icon": "ampersand",
         "groups": [
           {
             "group": "Başlarken",
@@ -122,6 +123,7 @@
       },
       {
         "tab": "Nasıl Yaparım",
+        "icon": "abacus",
         "dropdowns": [
           {
             "dropdown": "001-Genel Bilgilendirme",
