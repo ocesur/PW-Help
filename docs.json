@@ -23,6 +23,7 @@
           },
           {
             "anchor": "İşlerim",
+            "icon": "network-wired",
             "pages": [
               "a5x020100000",
               "a5x020200000"
