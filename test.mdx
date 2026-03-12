@@ -1,0 +1,77 @@
+---
+title: "İşlerim ve Süreç Yönetim Ekranı"
+sidebarTitle: "İşlerim"
+description: "Kullanıcıların aktif işlerini yönettiği, yeni akışlar başlattığı ve tamamlanan süreçleri izlediği merkezi operasyon ekranı."
+icon: "chart-network"
+---
+
+## Genel Bakış
+
+**İşlerim** ekranı, PaperWork üzerindeki tüm iş akışlarının yönetim merkezidir. Kullanıcılar kendilerine atanan görevleri burada görüntüler, yeni süreçler başlatır ve geçmişe dönük tamamlanan işlerini analiz eder. Ekran; bekleyen işler, tamamlananlar, taslaklar ve yönetim paneli olmak üzere dört ana modülden oluşur.
+
+## 1. Yeni Akış Başlatma
+
+Sistem üzerinde yetkili olduğunuz süreçleri başlatmak için "Yeni Akış" butonu kullanılır.
+
+* **Hızlı Erişim:** Sistem, kullanıcının en sık başlattığı ilk 5 akışı listenin en başında, kullanım adetleriyle birlikte gösterir.
+* **Arama ve Seçim:** Diğer tüm akışlar alfabetik olarak listelenir; arama çubuğu ile hızlıca bulunabilir.
+* **Kısayol Oluşturma:** Sık kullandığınız akışları (+) butonu ile yan menüye sabitleyebilirsiniz.
+* **Taslak Kaydetme:** Akışı başlatmadan önce verileri doldurup "Taslak" olarak kaydedebilir, daha sonra **Taslaklar** ekranından devam edebilirsiniz.
+
+> **Yetki Notu:** Bir kullanıcının akış başlatabilmesi için ilgili akış tasarımındaki yetki setinde en az **"Yazma"** yetkisine sahip olması gerekir.
+
+## 2. İş Listesi ve Görsel Göstergeler
+
+"İşlerim" sekmesinde bekleyen görevler tablo halinde listelenir. Listenin renkleri ve ikonları işin durumu hakkında kritik bilgiler verir:
+
+### Satır Renkleri
+| Renk | Anlamı |
+| :--- | :--- |
+| **Sarı (Koyu/Açık)** | Zamanlayıcısı (SLA) yaklaşan işler. Koyu sarı, sürenin bugün dolacağını belirtir. |
+| **Kırmızı** | Hata alarak kullanıcıya yönlendirilmiş, müdahale bekleyen işler. |
+| **Mavi** | Bilgilendirme amaçlı gönderilen, aksiyon gerektirmeyen "Bilgi" adımları. |
+| **Koyu Yazı** | Henüz hiç açılmamış, yeni gelen işler. |
+
+### İkonların Anlamı
+
+* **<Icon icon="paperclip" /> Eklenti:** İş akışına bağlı bir belge veya dosya kartı olduğunu gösterir.
+* **<Icon icon="users" /> Grup:** İşin bir kullanıcı grubuna geldiğini ve sahiplenilmeyi beklediğini ifade eder.
+* **<Icon icon="user-clock" /> Vekalet:** İşin size başka bir kullanıcı tarafından vekaleten devredildiğini gösterir.
+* **<Icon icon="sticky-note" /> Notlar:** Akış üzerinde alınmış bir not bulunduğunu temsil eder.
+* **<Icon icon="info" /> Bilgi:** Aksiyon gerektirmeyen, bilgilendirme amaçlı adımları simgeler.
+
+## 3. İşlem Butonları ve Fonksiyonlar
+
+Bir iş seçildiğinde, aktivite tanımlarına bağlı olarak aşağıdaki işlem tuşları belirir:
+
+* **Kaydet:** Formdaki değişiklikleri işi bitirmeden kaydeder.
+* **Yönlendir:** İş akışını belirlenen başka bir adıma manuel olarak yönlendirir.
+* **Atla/Ata:** İşi başka bir kullanıcıya devretmek için kullanılır.
+* **Gruptan Al / İade Et:** Grup işlerini üzerine almak veya tekrar havuza bırakmak için kullanılır.
+* **Bitir:** İş adımını tamamlayarak akışı bir sonraki aşamaya iletir.
+
+## 4. Tamamlananlar ve Takip
+
+Kullanıcının daha önce dahil olduğu veya başlattığı tüm süreçlerin izlendiği bölümdür.
+
+* **Durum İzleme:** Akışın şu an hangi adımda ve kimde beklediği anlık olarak görülür.
+* **Diyagram Görünümü:** Akışın görsel şeması üzerinde hangi yollardan geçtiği incelenebilir.
+* **Derecelendirme:** Tamamlanan işler üzerinde yıldız ikonu ile kişisel derecelendirme yapılabilir.
+
+## 5. Yönetim ve Denetim Ekranı
+
+Yöneticilerin, kendilerine bağlı personelin iş yükünü izlediği ve müdahale edebildiği ekrandır.
+
+* **İş Yükü Analizi:** Bağlı kullanıcıların üzerinde bekleyen ve tamamladıkları iş adetleri grafiksel olarak sunulur.
+* **KPI Ölçümü:** Süreçlerin hedeflenen sürelerde tamamlanma oranları takip edilir.
+* **Toplu Devretme:** Bir kullanıcının üzerindeki işler, "Devret" butonu ile başka bir kullanıcıya topluca aktarılabilir.
+
+## 6. Toplu İmzalama
+
+İş listesinde bekleyen birden fazla belgeyi tek seferde imzalamak için kullanılır.
+
+* **İmza Profilleri:** Önceden tanımlanmış imza profilleri seçilerek işlem başlatılır.
+* **Otomatik Bitirme:** "Belgesi imzalanan akış adımlarını bitir" seçeneği ile imza sonrası iş adımları otomatik olarak tamamlanabilir.
+
+---
+**İpucu:** İşlerim ekranındaki yoğunluğu yönetmek için "Ayarlar" bölümünden "Bilgi Bölümü"nü aktif ederek, bekleyen toplam iş yükünüzü sayısal özetler halinde görebilirsiniz.
