@@ -19,7 +19,8 @@
               "dark": "#0d65f6"
             },
             "pages": [
-              "a5x010100000"
+              "a5x010100000",
+              "paperwork-3ncu-parti-bilesenleri"
             ]
           },
           {
@@ -28,6 +29,22 @@
             "pages": [
               "a5x020100000",
               "a5x020200000"
+            ]
+          },
+          {
+            "anchor": "Kullanım Senaryoları",
+            "pages": [
+              "qr-kod-barkod-okuyucu-ks-01",
+              "ks-02-fotograf-video-ve-ses-kaydi",
+              "ks-03-iban-ve-tckn-dogrulamasi",
+              "ks-04-hesap-tablosu-nesnesi",
+              "ks-05-lokasyon-harita-nesnesi",
+              "ks-06-ai-belge-ozetleme",
+              "ks-07-ai-ton",
+              "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
+              "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
+              "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
+              "ks-11-iliskili-belge-mimarisi"
             ]
           }
         ]
@@ -39,8 +56,7 @@
           {
             "group": "Başlarken",
             "pages": [
-              "paperwork-urun-kalite-yaklasimi",
-              "paperwork-3ncu-parti-bilesenleri"
+              "paperwork-urun-kalite-yaklasimi"
             ]
           },
           {
@@ -70,22 +86,6 @@
               "tum-aksiyonlarim",
               "periyodik-aksiyonlarim",
               "taslak-aksiyonlar"
-            ]
-          },
-          {
-            "group": "Form Bileşenleri (KS Serisi)",
-            "pages": [
-              "qr-kod-barkod-okuyucu-ks-01",
-              "ks-02-fotograf-video-ve-ses-kaydi",
-              "ks-03-iban-ve-tckn-dogrulamasi",
-              "ks-04-hesap-tablosu-nesnesi",
-              "ks-05-lokasyon-harita-nesnesi",
-              "ks-06-ai-belge-ozetleme",
-              "ks-07-ai-ton",
-              "ks-08-kosula-bagli-yetki-ile-dinamik-erisim-kontrolu",
-              "ks-09-filigran-ile-belge-guvenligi-ve-izlenebilirlik",
-              "ks-10-yorumlar-ile-birlesik-iletisim-mimarisi",
-              "ks-11-iliskili-belge-mimarisi"
             ]
           },
           {
