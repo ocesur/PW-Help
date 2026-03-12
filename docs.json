@@ -9,6 +9,7 @@
     "tabs": [
       {
         "tab": "PaperWork",
+        "icon": "bird",
         "anchors": [
           {
             "anchor": "PaperWork BPM & ECM",
