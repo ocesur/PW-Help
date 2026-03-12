@@ -1,131 +1,66 @@
-## []{#Xa37c4c07ccb53fb4f3e7bc5017579114705d9c7 display="false"}Filigran ile Belge Güvenliği ve İzlenebilirlik {#filigran-ile-belge-güvenliği-ve-izlenebilirlik block-id="mm36hyh1-ltsvnb-837"}
+---
+title: "Filigran ile Belge Güvenliği ve İzlenebilirlik"
+sidebarTitle: "KS-09 Filigran Yönetimi"
+description: "PDF dokümanlar üzerinde dinamik filigranlar kullanarak belge güvenliğini ve kurumsal izlenebilirliği artırın."
+keywords: "filigran, belge güvenliği, pdf koruma, izlenebilirlik, yazdırma güvenliği, versiyon kontrolü, dinamik filigran"
+---
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm36hyh1-m3xeng-838"}
+## Genel Bakış
 
-Filigran özelliği, arşivlenen PDF dokümanları üzerinde metin tabanlı
-filigranlar kullanılarak belge güvenliğinin ve izlenebilirliğin
-artırılmasını sağlar. Filigranlar; belge görüntüleme, kaydetme, yazdırma
-veya versiyonlama gibi farklı durumlarda otomatik olarak uygulanabilir.
+**Filigran** özelliği, arşivlenen PDF dokümanları üzerinde metin tabanlı katmanlar kullanarak belge güvenliğini ve izlenebilirliğini en üst seviyeye taşır. Filigranlar; belgenin görüntülenmesi, kaydedilmesi, yazdırılması veya eski versiyonlarına erişilmesi gibi farklı senaryolarda otomatik olarak uygulanır.
 
-Bu yapı sayesinde belgelerin yetkisiz paylaşımı caydırılır, belge
-çıktıları üzerinde kaynağı ve kullanım amacını gösteren bilgiler yer
-alır.
+Bu yapı sayesinde, belgelerin yetkisiz ekran görüntülerinin alınması veya paylaşılması caydırılır; döküman çıktıları üzerinde kaynağı ve kullanım amacını gösteren kalıcı izler yer alır.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm36hyh1-rd4bdd-841"}
+## Ne Zaman Kullanılmalıdır?
 
-Aşağıdaki durumlarda Filigran kullanımının tercih edilmesi önerilir:
+Aşağıdaki durumlarda Filigran kullanımı kurumsal bir zorunluluk ve güvenlik önlemi olarak önerilir:
 
-- Gizli veya hassas belgelerin arşivlendiği süreçlerde
+- **Hassas Veri Paylaşımı:** Gizli belgelerin üçüncü taraflarla paylaşılması veya dışarı aktarılması gerektiğinde.
+- **Fiziksel Arşiv Güvenliği:** PDF belgelerin yazdırıldığı durumlarda, dökümanın kime ait olduğunun çıktı üzerinde görünmesi istendiğinde.
+- **Kullanım Takibi:** Belgenin kim tarafından, ne zaman ve hangi amaçla (Örn: "Sadece Bilgi İçindir") görüntülendiğinin belirtilmesi gerektiğinde.
+- **Sürüm Karışıklığını Önleme:** Versiyonlanmış belgelerin eski sürümlerinin güncel belgeden net bir şekilde ayırt edilmesi hedeflendiğinde.
 
-- PDF belgelerin yazdırılması veya dışarı aktarılması gerekiyorsa
+## Teknik Çalışma Mekanizması
 
-- Belgelerin kim tarafından ve hangi amaçla kullanıldığının görünür
-  olması isteniyorsa
+Filigran tanımları, Arşiv Tipleri üzerinde yer alan **Filigran** sekmesi üzerinden merkezi olarak yönetilir.
 
-- Versiyonlanmış belgelerin eski sürümlerinin ayırt edilmesi gerekiyorsa
+**İşleyiş Adımları:**
 
-- Kurumsal belge güvenliği ve izlenebilirlik hedefleniyorsa
+1. **Tanımlama:** Arşiv tipinde yeni bir filigran kurgusu oluşturulur.
+2. **Tasarım:** Filigran metni, yazı tipi, boyutu, açısı ve rengi belirlenir. (Önizleme üzerinden anlık kontrol edilebilir.)
+3. **Kural Atama:** Filigranın hangi durumlarda (Görüntüleme, Yazdırma vb.) devreye gireceği seçilir.
+4. **Dinamik Uygulama:** Tanımlanan kurallar sağlandığında, sistem PDF üzerine filigranı saniyeler içinde "render" ederek yerleştirir.
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm36hyh1-dwcqgp-849"}
+## Görünürlük ve Tetikleyici Seçenekleri
 
-Filigran tanımları, Arşiv Tipleri üzerinde yer alan **Filigran** sekmesi
-üzerinden yapılır.
+Filigranlar, işlem türüne göre özelleştirilebilir:
 
-Temel çalışma adımları:
+| İşlem Türü          | Açıklama                                                    |
+| :------------------ | :---------------------------------------------------------- |
+| **Görüntülemede**   | Belge ekranda açıldığı an kullanıcıyı karşılar.             |
+| **Kaydetmede**      | Kullanıcı belgeyi bilgisayarına indirdiğinde PDF'e gömülür. |
+| **Yazdırmada**      | Sadece fiziksel çıktı alınırken kağıt üzerinde görünür.     |
+| **Eski Versiyonda** | Belgenin güncel olmayan sürümüne bakıldığında uyarır.       |
 
-1.  Arşiv tipinde **Yeni Filigran** seçeneği ile filigran tanımı
-    oluşturulur
+## Koşullu Filigran Kullanımı (Dinamik Güvenlik)
 
-2.  Filigran metni, yazı formatı ve renk bilgileri belirlenir
+Filigranlar, form üzerindeki tip alanlarına girilen değerlere göre **koşullu** olarak değişebilir.
 
-3.  Tanımlanan filigran için önizleme üzerinden görünüm kontrol edilir
+- **Örnek:** Belgenin "Gizlilik" alanı "Kritik" seçilmişse kırmızı bir "GİZLİDİR" filigranı; "Genel" seçilmişse şeffaf bir kurumsal logo filigranı gösterilebilir.
 
-4.  Gerekirse **Düzenle** seçeneği ile filigran güncellenir
+## Sağladığı İş Değeri
 
-5.  Filigranın hangi durumlarda görüneceği tanımlanır
+- **Caydırıcılık:** Belge üzerinde kullanıcı bilgilerinin yer alması, yetkisiz paylaşım riskini minimize eder.
+- **Karışıklığı Önleme:** "Eski Versiyon" filigranı sayesinde hatalı (eski) döküman üzerinden işlem yapılmasının önüne geçilir.
+- **Denetim Uyumu:** Belgelerin kullanım amacını (Örn: "Maliye Denetimi İçindir") dökümana mühürleyerek izlenebilirlik sağlar.
+- **Marka Güvenliği:** Çıktı alınan dökümanların kurumsal standartlarda ve kontrollü dağıtılmasını garanti eder.
 
-Tanımlanan filigranlar, ilgili koşullar sağlandığında otomatik olarak
-uygulanır.
+## Kritik Notlar
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm36hyh1-meyny6-859"}
+- **Format Kısıtı:** Filigran özelliği teknik olarak yalnızca **PDF** formatındaki dokümanlar için geçerlidir.
+- **Merkezi Yönetim:** Tanımlar Arşiv Tipi bazında yapıldığı için o tipteki tüm geçmiş belgelere de uygulanabilir.
+- **Esneklik:** Düzenle seçeneği ile filigran metinleri süreçlerin ihtiyacına göre anlık olarak güncellenebilir.
 
-### []{#gizli-belgelerin-görüntülenmesi display="false"}1. Gizli Belgelerin Görüntülenmesi {#gizli-belgelerin-görüntülenmesi block-id="mm36hyh1-huetl9-860"}
+---
 
-- Belge görüntüleme sırasında filigran gösterimi aktif edilir
-
-- Belgeler üzerinde gizlilik uyarısı görünür
-
-- Yetkisiz ekran görüntüsü veya paylaşım riski azaltılır
-
-### []{#pdf-kaydetme-ve-yazdırma display="false"}2. PDF Kaydetme ve Yazdırma {#pdf-kaydetme-ve-yazdırma block-id="mm36hyh1-rqihr6-865"}
-
-- Belge PDF olarak kaydedildiğinde filigran otomatik eklenir
-
-- Yazdırma işlemlerinde filigran çıktıya yansır
-
-- Fiziksel ve dijital kopyalar izlenebilir hale gelir
-
-### []{#versiyonlu-belgeler display="false"}3. Versiyonlu Belgeler {#versiyonlu-belgeler block-id="mm36hyh2-hbdme4-870"}
-
-- Eski versiyonlar açıldığında özel filigran gösterilir
-
-- Güncel ve eski belgeler kolayca ayırt edilir
-
-## []{#senaryo-akış-özeti display="false"}Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm36hyh2-vgjujj-874"}
-
-- **Görüntüleme:** Belge açılır → Filigran ekranda görünür
-
-- **Kaydetme:** PDF oluşturulur → Filigran belgeye eklenir
-
-- **Yazdırma:** Yazıcıya gönderilir → Filigran çıktıda yer alır
-
-- **Versiyonlama:** Eski sürüm açılır → Özel filigran gösterilir
-
-## []{#görünürlük-seçenekleri display="false"}Görünürlük Seçenekleri {#görünürlük-seçenekleri block-id="mm36hyh2-97yae2-880"}
-
-Filigranlar aşağıdaki durumlara göre gösterilebilir:
-
-- **Tümü:** Tüm işlemlerde tek bir filigran gösterilir
-
-- **Görüntülemede:** Belge yalnızca görüntülenirken filigran görünür
-
-- **Kaydetmede:** PDF olarak kaydetme sonrası filigran eklenir
-
-- **Yazdırmada:** Yazdırma işlemi sırasında filigran görünür
-
-- **Eski Versiyonda:** Sadece versiyonlanmış belgelerin eski
-  sürümlerinde filigran gösterilir
-
-## []{#koşullu-filigran-kullanımı display="false"}Koşullu Filigran Kullanımı {#koşullu-filigran-kullanımı block-id="mm36hyh2-sbggl7-888"}
-
-Filigranlar, tip alanlarına girilen değerlere göre koşullu olarak da
-gösterilebilir.
-
-Örnek kullanım:
-
-- Belirli bir alan değeri girildiğinde bir filigran gösterilir
-
-- Diğer durumlarda farklı bir filigran devreye alınır
-
-Bu sayede belge içeriğine veya niteliğine göre dinamik filigran
-kullanımı sağlanır.
-
-## []{#iş-değeri display="false"}İş Değeri {#iş-değeri block-id="mm36hyh2-xv6wf1-895"}
-
-- Belge güvenliği ve gizlilik seviyesi artar
-
-- Yetkisiz kullanım ve paylaşım riski azalır
-
-- Belgelerin kullanım amacı ve durumu netleşir
-
-- Eski ve güncel versiyonların ayrımı kolaylaşır
-
-- Kurumsal doküman yönetimi güçlenir
-
-## []{#notlar display="false"}Notlar {#notlar block-id="mm36hyh2-ek3tsj-902"}
-
-- Filigran özelliği yalnızca PDF dokümanlar için geçerlidir.
-
-- Filigran tanımları Arşiv Tipi bazında yapılır.
-
-- Koşullu filigranlar, tanımlı tip alanı değerlerine göre çalışır.
+**İpucu:** Bu özelliği "Koşula Bağlı Yetki" ile birleştirerek, sadece yetkili kişilerin filigransız döküman görmesini sağlayabilir, güvenliği katmanlı hale getirebilirsiniz.
