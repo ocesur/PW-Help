@@ -18,15 +18,9 @@
           },
           {
             "anchor": "İşlerim",
-            "groups": [
-              {
-                "group": "İşlerim Ekranı",
-                "expanded": true,
-                "pages": [
-                  "a5x020100000",
-                  "a5x020200000"
-                ]
-              }
+            "pages": [
+              "a5x020100000",
+              "a5x020200000"
             ]
           }
         ]
