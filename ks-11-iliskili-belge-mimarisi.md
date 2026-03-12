@@ -1,121 +1,68 @@
-[]{#X1e25b732d3d982370c5164fda7744aa12b774bc display="false"}
+---
+title: "İlişkili Belge Mimarisi ile Doküman Ağı Oluşturma"
+sidebarTitle: "KS-11 İlişkili Belge Mimarisi"
+description: "PaperWork üzerinde belgeler arasında anlamlı bağlar kurarak döküman ekosistemi oluşturma rehberi."
+keywords: "ilişkili belge mimarisi, döküman ağı, otomatik ilişkilendirme, manuel ilişkilendirme, kabinet tanımları, belge ekosistemi"
+---
 
-## İlişkili Belge Mimarisi ile Doküman Ağı Oluşturma {#ilişkili-belge-mimarisi-ile-doküman-ağı-oluşturma block-id="mm3en7pp-v1hrsg-309"}
+## Genel Bakış
 
-[]{#amaç display="false"}
+**İlişkili Belge Mimarisi**, PaperWork platformunda arşivlenen belgeler arasında mantıksal ve operasyonel bağlar kurulmasını sağlar. Bu mimari sayesinde, birbirini tamamlayan dokümanlar (Örn: Sözleşme, Fatura ve İrsaliye) anlamlı bir doküman ağı içerisinde yönetilir. Kullanıcılar, tek bir belge üzerinden ilgili tüm dökümanlara hızlı ve bağlamsal olarak erişebilirler.
 
-## Amaç {#amaç block-id="mm3en7pp-0jtx35-310"}
+## Mimari Bileşenler ve Kapsam
 
-Bu kullanım senaryosunun amacı; PaperWork platformunda arşivlenen
-belgeler arasında ilişki kurularak, birbirini tamamlayan dokümanların
-anlamlı bir doküman ağı (doküman ekosistemi) içerisinde yönetilmesini
-açıklamaktır. Bu yapı sayesinde kullanıcılar, bir belgeye bağlı tüm
-ilgili dokümanlara hızlı ve bağlamsal olarak erişebilir.
+İlişkili Belge Mimarisi, döküman yönetimini bir ekosisteme dönüştüren şu yetenekleri kapsar:
 
-[]{#kapsam display="false"}
+- **Otomatik İlişkilendirme:** Veri eşleşmesine dayalı sistem üretimi bağlar.
+- **Manuel İlişkilendirme:** Kullanıcı inisiyatifiyle kurulan çift yönlü bağlar.
+- **Yönlü İlişki Yapıları:** Tek yönlü veya çift yönlü erişim kontrolleri.
+- **Merkezi Görüntüleme:** Tüm ilişkili ağın tek ekrandan izlenmesi.
 
-## Kapsam {#kapsam block-id="mm3en7pq-ufdv2m-312"}
+## 1. Otomatik İlişkilendirme Mekanizması
 
-Bu senaryo aşağıdaki konuları kapsar: - Belge tipleri arasında otomatik
-ilişkilendirme - Belgeler ekranında manuel ilişkilendirme - Tek yönlü ve
-çift yönlü ilişki yapıları - İlişkili belgelerin görüntülenmesi
+Belge tipleri arasında tanımlanan kurallar doğrultusunda, sistem dökümanları herhangi bir kullanıcı müdahalesi olmaksızın birbirine bağlar.
 
-[]{#ön-koşullar display="false"}
+- **Tanımlama:** İlişkilendirme kuralları **Kabinet Tanımları** ekranında, ilgili belge tipi üzerinde kurgulanır.
+- **Koşul Eşleştirme:** Kaynak ve hedef belge tiplerindeki alanlar (Örn: "Müşteri No" veya "Proje Kodu") birbiriyle eşleştirilir.
+- **Asenkron İşlem:** Performansı korumak adına ilişkilendirme işlemi arka planda asenkron olarak yürütülür (ortalama 1 dakika içinde tamamlanır).
 
-## Ön Koşullar {#ön-koşullar block-id="mm3en7pq-6xc3zr-314"}
+### İlişki Yönü Seçenekleri
 
-- Belgelerin **Arşiv** tipi kullanılarak arşivlenmiş olması gerekir.
+- **Çift Yönlü İlişki:** Belgelerden herhangi birine erişildiğinde diğerine karşılıklı olarak geçiş yapılabilir.
+- **Tek Yönlü İlişki:** İlişki sadece birincil (ana) belgeden alt belgelere doğru kurulur; tersi yönde erişim sağlanmaz.
 
-- Otomatik ilişkilendirme için belge tipleri ve tip alanları tanımlanmış
-  olmalıdır.
+## 2. Manuel İlişkilendirme
 
-- Kullanıcının ilgili belgeleri görüntüleme yetkisine sahip olması
-  gerekir.
+Kullanıcılar, sistemin otomatik olarak yakalayamayacağı ancak iş süreci açısından kritik olan bağları manuel olarak kurabilirler.
 
-[]{#kullanım-senaryosu-adımları display="false"}
+**İşlem Adımları:**
 
-## Kullanım Senaryosu Adımları {#kullanım-senaryosu-adımları block-id="mm3en7pq-qrintv-319"}
+1. İlgili belgeler panoya (basket) eklenir.
+2. Pano içerisindeki **İlişkilendirme** sekmesi açılır.
+3. Belgeler seçilerek bağlama işlemi tamamlanır.
 
-[]{#otomatik-ilişkilendirme display="false"}
+> **Önemli Not:** Manuel olarak oluşturulan tüm ilişkiler sistem tarafından otomatik olarak **çift yönlü** kabul edilir.
 
-### 1. Otomatik İlişkilendirme {#otomatik-ilişkilendirme block-id="mm3en7pq-omqlw6-320"}
+## 3. Doküman Ağının Görüntülenmesi
 
-Belge tipleri arasında tanımlanan kurallar doğrultusunda, sistem
-belgeleri otomatik olarak ilişkilendirebilir.
+İlişkili Belge Mimarisi ile birbirine bağlanan dökümanlara iki farklı noktadan erişilebilir:
 
-- İlişkilendirme tanımı **Kabinet Tanımları** ekranında, belge tipi
-  üzerinde yapılır.
+1. **Belgeler Ekranı:** Liste görünümünde yer alan "İlişkili Belgeler" butonu ile hızlı önizleme yapılır.
+2. **Belge Detayları:** Döküman detay sayfasındaki özel sekme üzerinden, otomatik veya manuel fark etmeksizin tüm döküman ağı listelenir.
 
-- Kaynak belge tipi ile hedef belge tipine ait tip alanları koşul olarak
-  eşleştirilir.
+## Sağladığı İş Değeri
 
-- Eşleşen alanlardaki veriler belirtilen koşulları sağladığında belgeler
-  otomatik olarak ilişkilendirilir.
+- **Bağlamsal Bütünlük:** Bir dökümana bakarken, o dökümanı doğuran veya onun sonucu olan diğer tüm belgelere anında erişilir.
+- **Denetim Kolaylığı:** Denetçiler veya yöneticiler için "belge setine" ulaşma süresi saniyelere iner.
+- **Karar Hızı:** Karar vericiler, tüm referans dökümanları (teklif, onay yazısı, sözleşme) tek bir ağ yapısında görerek süreci hızlandırır.
+- **Veri Düzenleme:** Dağınık ve tekil döküman yapıları, anlamlı bir kurumsal hafızaya dönüşür.
 
-- İlişkilendirme işlemi sistem tarafından **asenkron** olarak
-  gerçekleştirilir (yaklaşık 1 dakika).
+## Teknik Ön Koşullar
 
-[]{#ilişki-yönü-seçenekleri display="false"}
+- **Arşiv Tipi:** Belgelerin mutlaka bir Arşiv Tipi ile sisteme dahil edilmiş olması gerekir.
+- **Alan Tanımları:** Otomatik ilişki için dökümanların en az bir ortak "Anahtar Alan" (Tip Alanı) içermesi şarttır.
+- **Yetkilendirme:** Kullanıcı, sadece görme yetkisine sahip olduğu ilişkili belgeleri görüntüleyebilir.
 
-#### İlişki Yönü Seçenekleri {#ilişki-yönü-seçenekleri block-id="mm3en7pr-5yy8h4-327"}
+---
 
-- **Çift Yönlü İlişki:** İlişkilendirilen tüm belgelerden karşılıklı
-  olarak erişim sağlanır.
-
-- **Tek Yönlü İlişki:** İlişkili belgelere yalnızca birincil belgeden
-  erişilebilir.
-
-[]{#otomatik-ilişkilerin-görüntülenmesi display="false"}
-
-### 2. Otomatik İlişkilerin Görüntülenmesi {#otomatik-ilişkilerin-görüntülenmesi block-id="mm3en7pr-akmc9z-331"}
-
-Otomatik olarak ilişkilendirilen belgeler, **Belgeler** ekranında yer
-alan **İlişkili Belgeler** tuşu aracılığıyla görüntülenir.
-
-- Kullanıcı, ilgili belgeye bağlı tüm ilişkili belgelere tek ekrandan
-  erişebilir.
-
-- İlişkiler, tanımlanan ilişki yönüne göre listelenir.
-
-[]{#manuel-ilişkilendirme display="false"}
-
-### 3. Manuel İlişkilendirme {#manuel-ilişkilendirme block-id="mm3en7pr-1soh3g-336"}
-
-Kullanıcılar, belgeler arasında manuel olarak da ilişki kurabilir.
-
-Manuel ilişkilendirme adımları: 1. Belgeler ekranında ilişkilendirilmek
-istenen bir veya birden fazla belge panoya eklenir. 2. Pano içerisinde
-**İlişkilendirme** sekmesi açılır. 3. Belgeler seçilerek ilişkilendirme
-işlemi tamamlanır.
-
-- Manuel oluşturulan tüm ilişkiler **çift yönlüdür**.
-
-[]{#belge-detaylarından-ilişkili-belgeler display="false"}
-
-### 4. Belge Detaylarından İlişkili Belgeler {#belge-detaylarından-ilişkili-belgeler block-id="mm3en7ps-klb9s5-341"}
-
-Belge detay ekranında yer alan **İlişkili Belgeler** seçeneği ile,
-belgeye bağlı tüm ilişkili dokümanlar görüntülenebilir.
-
-- Bu ekran, otomatik ve manuel olarak oluşturulmuş tüm ilişkileri
-  kapsar.
-
-- İlişkilendirme kurallarına bağlı olarak oluşturulan ilişkiler asenkron
-  olarak güncellenir.
-
-[]{#iş-değeri display="false"}
-
-## İş Değeri {#iş-değeri block-id="mm3en7ps-g0k0qt-346"}
-
-İlişkili Belge mimarisi sayesinde: - Belgeler arasında bağlamsal
-bütünlük sağlanır - Dağınık doküman yapıları anlamlı bir ağ yapısına
-dönüşür - Denetim, inceleme ve karar süreçleri hızlanır - Belgeye bağlı
-tüm referanslara tek noktadan erişim mümkün olur
-
-[]{#sonuç display="false"}
-
-## Sonuç {#sonuç block-id="mm3en7ps-xk5qwv-348"}
-
-İlişkili belge mimarisi ile PaperWork platformunda belgeler, yalnızca
-tekil kayıtlar olarak değil; birbirleriyle ilişkili, izlenebilir ve
-yönetilebilir bir doküman ağı içerisinde ele alınır.
+**İpucu:** İlişkili Belge Mimarisi'ni "Sohbet Mimarisi" ile birleştirerek, bir belge ağındaki tüm paydaşların tüm ilişkili dökümanlar hakkında ortak bir sohbet kanalında konuşmasını sağlayabilirsiniz.
