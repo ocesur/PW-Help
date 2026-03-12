@@ -12,6 +12,10 @@
         "anchors": [
           {
             "anchor": "PaperWork BPM & ECM",
+            "color": {
+              "light": "#0d65f6",
+              "dark": "#0d65f6"
+            },
             "pages": [
               "a5x010100000"
             ]
