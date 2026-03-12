@@ -1,111 +1,59 @@
-# []{#Xe79dff746e5dfa19047b8bc51ea24239fcef093 display="false"}Hesap Tablosu Nesnesi ile Bütçe ve Planlama Formları {#hesap-tablosu-nesnesi-ile-bütçe-ve-planlama-formları block-id="mm26q9b9-mm4k8q-057"}
+---
+title: "Hesap Tablosu Nesnesi ile Bütçe ve Planlama Formları"
+sidebarTitle: "KS-04 Hesap Tablosu"
+description: "Formlar içerisinde Excel benzeri satır-sütun yapısında düzenli veri girişi sağlayan tablo nesnesi."
+keywords: "hesap tablosu, excel, bütçe formu, tablo veri girişi, kopyala yapıştır, planlama kalemleri, form tasarımı"
+---
 
-## []{#genel-bakış display="false"}Genel Bakış {#genel-bakış block-id="mm26q9b9-gwa2uf-058"}
+## Genel Bakış
 
-Hesap Tablosu nesnesi, formlar içerisinde Excel benzeri satır--sütun
-yapısında veri girişi yapılmasını sağlar. Bu nesne; çok kalemli, tablo
-bazlı bilgilerin tek bir form alanı üzerinden düzenli, okunabilir ve
-kontrollü şekilde toplanması amacıyla kullanılır.
+Hesap Tablosu nesnesi, PaperWork formları içerisinde Excel benzeri satır-sütun yapısında veri girişi yapılmasını sağlar. Bu nesne; çok kalemli ve tablo bazlı bilgilerin tek bir form alanı üzerinden düzenli, okunabilir ve kontrollü şekilde toplanması amacıyla kullanılır.
 
-Hesap Tablosu, hesaplama veya otomatik toplam üretmekten ziyade;
-yapılandırılabilir kolonlar, biçimlendirme seçenekleri ve
-kopyala--yapıştır desteği ile kullanıcıların tablo halinde veri
-girmesine imkân tanır.
+**Önemli Ayrım:** Hesap Tablosu, karmaşık formüllerle otomatik toplam üretmekten ziyade; yapılandırılabilir kolonlar, zengin biçimlendirme seçenekleri ve **kopyala-yapıştır** desteği ile kullanıcıların tablo verilerini forma hızlıca işlemesine odaklanır.
 
-## []{#ne-zaman-kullanılır display="false"}Ne Zaman Kullanılır? {#ne-zaman-kullanılır block-id="mm26q9b9-o7om61-061"}
+## Ne Zaman Kullanılmalıdır?
 
 Aşağıdaki durumlarda Hesap Tablosu nesnesinin kullanımı önerilir:
 
-- Bütçe, maliyet veya planlama kalemlerinin tablo halinde girilmesi
-  gerektiğinde
+- **Çok Kalemli Veriler:** Bütçe, maliyet veya planlama kalemlerinin tablo halinde girilmesi gerektiğinde.
+- **Excel Alışkanlığı:** Excel benzeri kullanım alışkanlığının form içine taşınması istendiğinde.
+- **Hızlı Veri Girişi:** Başka bir kaynaktan kopyala-yapıştır yoluyla toplu veri aktarımı hedefleniyorsa.
+- **Düzenli Yapı:** Satır ve kolon bazlı, hiyerarşik bir veri toplama ihtiyacı varsa.
 
-- Çok satırlı ve çok kolonlu veri toplanan formlarda
+## Çalışma Mekanizması
 
-- Excel benzeri kullanım alışkanlığının form içine taşınması
-  istendiğinde
+Hesap Tablosu nesnesi, form tasarımı aşamasında eklenir ve projenin ihtiyacına göre özelleştirilir.
 
-- Kopyala--yapıştır yoluyla hızlı veri girişi hedefleniyorsa
+**Temel İşleyiş Adımları:**
 
-- Satır ve kolon bazlı düzenli veri yapısına ihtiyaç duyuluyorsa
+1. **Yapılandırma:** Form tasarımında satır/kolon sayıları ve kolon başlıkları belirlenir.
+2. **Veri Girişi:** Kullanıcı form üzerinde hücrelere veri girer veya Excel'den veri yapıştırır.
+3. **Veri Entegrasyonu:** Girilen veriler, form kaydı ile birlikte sistemde saklanır ve sürecin sonraki adımlarında görüntülenebilir.
 
-## []{#nasıl-çalışır display="false"}Nasıl Çalışır? {#nasıl-çalışır block-id="mm26q9b9-rfgpff-069"}
+> Bu yapı sayesinde, tablo verilerini yönetmek için süreçten bağımsız harici dosyalara (Excel, CSV vb.) ihtiyaç duyulmaz.
 
-Hesap Tablosu nesnesi, form tasarımı sırasında eklenir ve nesneye özel
-ayarlar üzerinden yapılandırılır.
+## Örnek Kullanım Senaryoları
 
-Temel çalışma adımları:
+### 1. Bütçe Kalemlerinin Girilmesi
 
-1.  Form tasarımına Hesap Tablosu nesnesi eklenir
+Bütçeye ait gider veya gelir kalemleri satır bazında tabloya işlenir. Her kolon; kalem adı, açıklama veya tutar gibi belirli bir bilgi türünü temsil eder.
 
-2.  Satır ve kolon sayıları belirlenir
+### 2. Proje ve Operasyonel Planlama
 
-3.  Kolon başlıkları ve kolon detayları yapılandırılır
+Projeye ait iş kalemleri ve zaman planlaması tabloya eklenir. Tüm bilgiler süreç boyunca tek noktadan izlenebilir ve güncellenebilir.
 
-4.  Kullanıcı form üzerinde tabloya veri girişini yapar
+### 3. Excel'den Veri Aktarımı
 
-5.  Girilen veriler form kaydı ile birlikte saklanır ve süreç boyunca
-    görüntülenir
+Kullanıcı, Excel üzerinde hazırladığı bir listeyi doğrudan kopyalayıp PaperWork Hesap Tablosu'na yapıştırarak manuel giriş yükünü ortadan kaldırır.
 
-Bu yapı sayesinde tablo verileri süreçten bağımsız dosyalara ihtiyaç
-duyulmadan yönetilir.
+## Sağladığı İş Değeri
 
-## []{#kullanım-senaryoları display="false"}Kullanım Senaryoları {#kullanım-senaryoları block-id="mm26q9ba-mw66lb-079"}
+- **Dosya Bağımsızlığı:** Süreçlerin harici Excel dosyalarına olan bağımlılığı azalır.
+- **Veri Tutarlılığı:** Tablo verileri süreç kaydıyla birleşik şekilde saklanır, kaybolma riski önlenir.
+- **Zaman Tasarrufu:** Kopyala-yapıştır desteği ile manuel veri giriş süresi kısalır.
+- **Okunabilirlik:** Karmaşık veriler form üzerinde daha düzenli ve taranabilir hale gelir.
 
-### []{#bütçe-kalemlerinin-girilmesi display="false"}1. Bütçe Kalemlerinin Girilmesi {#bütçe-kalemlerinin-girilmesi block-id="mm26q9ba-y16a6q-080"}
+## Kritik Notlar
 
-- Bütçeye ait gider veya gelir kalemleri satır bazında tabloya girilir
-
-- Her kolon, ilgili bilgi türünü (kalem adı, açıklama, tutar vb.) temsil
-  edecek şekilde yapılandırılır
-
-- Veriler tek form üzerinden düzenli şekilde toplanır
-
-### []{#proje-ve-operasyonel-planlama display="false"}2. Proje ve Operasyonel Planlama {#proje-ve-operasyonel-planlama block-id="mm26q9ba-ysgl02-085"}
-
-- Projeye ait iş kalemleri tabloya eklenir
-
-- Satır ve kolon yapısı planlama ihtiyacına göre özelleştirilir
-
-- Tüm bilgiler süreç boyunca tek noktadan izlenir
-
-### []{#excelden-veri-aktarımı-gereken-süreçler display="false"}3. Excel'den Veri Aktarımı Gereken Süreçler {#excelden-veri-aktarımı-gereken-süreçler block-id="mm26q9ba-xfouqn-090"}
-
-- Kullanıcı, başka bir kaynaktan kopyaladığı verileri tabloya yapıştırır
-
-- Manuel satır ekleme ve veri giriş süresi kısalır
-
-- Veri girişinde tutarlılık sağlanır
-
-## []{#senaryo-akış-özeti display="false"}Senaryo Akış Özeti {#senaryo-akış-özeti block-id="mm26q9ba-m9vlwi-095"}
-
-- **Bütçe formu:** Hesap Tablosu yapılandırılır → Kullanıcı tabloya
-  verileri girer → Form kaydedilir
-
-- **Planlama süreci:** Satır--kolon yapısı tanımlanır → Veriler tabloya
-  işlenir → Süreç ilerler
-
-- **Veri aktarımı:** Kopyala--yapıştır ile tablo doldurulur → Kayıt
-  tamamlanır
-
-## []{#iş-değeri display="false"}İş Değeri {#iş-değeri block-id="mm26q9ba-cnir0v-100"}
-
-- Excel dosyalarına olan bağımlılık azalır
-
-- Tablo bazlı veriler süreçle birlikte yönetilir
-
-- Veri girişleri daha düzenli ve okunabilir hale gelir
-
-- Kopyala--yapıştır desteği ile zaman tasarrufu sağlanır
-
-- Süreç kayıtları içinde tablo verileri kaybolmadan saklanır
-
-[]{#ilgili-özellikler display="false"}
-
-## []{#notlar display="false"}Notlar {#notlar block-id="mm26q9bb-0irakq-108"}
-
-- Hesap Tablosu nesnesi, Excel benzeri bir veri girişi deneyimi sunar.
-
-- Satır ve kolon sayıları form tasarımı sırasında belirlenir.
-
-- Hesaplama ve otomatik toplam üretimi Hesap Tablosu nesnesinin temel
-  fonksiyonu değildir.
+- **Fonksiyon Kısıtı:** Hesap Tablosu nesnesi bir hesaplama motoru değildir; temel amacı **veri toplama ve düzenleme** işlemleridir.
+- **Tasarım:** Satır ve kolon limitleri formun performansını etkilememesi adına tasarım aşamasında optimize edilmelidir.
